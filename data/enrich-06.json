@@ -1,0 +1,113 @@
+[
+  {
+    "id": "A0219",
+    "name_en": "DeepRad.AI",
+    "industry": {"zh": "醫療AI", "en": "Medical AI"},
+    "summary": {"zh": "以AI分析醫學影像，協助偵測心肺、腦部疾病風險。", "en": "AI medical-imaging startup detecting cardiopulmonary and brain disease risks."},
+    "overview": {"zh": "神瑞人工智慧由臺北醫學大學影像醫學與AI團隊於2023年共同創立，運用AI分析醫療影像。核心產品DeepLung-CAC可從一張低劑量CT同時偵測肺結節、冠狀動脈鈣化與骨質疏鬆，DeepBrain-Cognito則以MRI分析腦齡並預測失智風險。全台已有超過29家醫院採用，並於日、美、泰展開取證。", "en": "Founded in 2023 by a Taipei Medical University imaging-AI team, DeepRad.AI applies AI to medical imaging. Its DeepLung-CAC detects lung nodules, coronary artery calcification and osteoporosis from a single low-dose CT, while DeepBrain-Cognito uses MRI to assess brain age and predict dementia risk. Over 29 hospitals in Taiwan use its software, with validation underway in Japan, the US and Thailand."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "104人力銀行公司簡介", "url": "https://www.104.com.tw/company/1a2x6bmlse"},
+      {"title": "Yourator 公司頁", "url": "https://www.yourator.co/companies/deepradai"}
+    ]
+  },
+  {
+    "id": "A1023",
+    "name_en": "eCloudEdge Digital Innovation Co., Ltd.",
+    "industry": {"zh": "雲端邊緣運算", "en": "Edge/Cloud Computing"},
+    "summary": {"zh": "提供雲地互聯的邊緣協作軟體，整合IT與OT助企業數位轉型。", "en": "Edge orchestration software bridging IT and OT for cloud-to-edge digital transformation."},
+    "overview": {"zh": "雲界數位創新成立於2025年，為台灣雲端服務品牌eCloudvalley策略投資的新創團隊，成員來自工業自動化與IT領域。旗艦產品NeoEdge為邊緣協作軟體，打破IT與OT藩籬，支援快速資料整合、設備管理、應用部署與具資安的AIoT解決方案。", "en": "Established in 2025 as a strategic-investment startup backed by Taiwan's leading cloud brand eCloudvalley, eCloudEdge brings together industrial-automation and IT experts. Its flagship NeoEdge edge-orchestration platform breaks down IT/OT barriers, enabling rapid data integration, device management, application deployment and secure AIoT solutions."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "eCloudEdge 官方網站", "url": "https://www.ecloudedge.com/en/"},
+      {"title": "工商時報報導", "url": "https://www.ctee.com.tw/news/20250619702122-430502"}
+    ]
+  },
+  {
+    "id": "A0449",
+    "name_en": null,
+    "industry": {"zh": "醫藥保健", "en": "Pharma & Health"},
+    "summary": {"zh": "（依名稱與參賽組別推估）從事醫藥保健產品的研發與國際銷售。", "en": "(inferred from name and track) Develops and internationally markets pharmaceutical and health products."},
+    "overview": {"zh": "（依名稱與參賽組別推估）惠生醫藥國際應為一家專注於醫藥、保健或健康產品的企業，名稱中的「國際」可能指涉跨境銷售或進出口業務。歸屬消費生活組，研判其產品面向健康消費市場。本資料未能查得該公司確切的公開來源，僅依公司名稱與參賽組別推估。", "en": "(inferred from name and track) Hui Sheng Pharma International appears to focus on pharmaceutical, health or wellness products, with 'International' suggesting cross-border sales or import/export. Placed in the consumer/lifestyle track, it likely targets the health-consumer market. No confirmed public source was found; this entry is inferred from the company name and competition track."},
+    "verified": false,
+    "confidence": "low",
+    "links": []
+  },
+  {
+    "id": "A1047",
+    "name_en": "Midway",
+    "industry": {"zh": "健康促進", "en": "Health & Wellness"},
+    "summary": {"zh": "整合治療師等專業，提供企業職場健康促進與賦能服務。", "en": "Workplace health-promotion services delivered by an interdisciplinary team of health professionals."},
+    "overview": {"zh": "米蔚健康顧問定位為『醫療專業』與『健康生活』的中繼站(Midway)，集結治療師、心理師、營養師、運動教練等約91位健康專業人員，以職場健康促進與健康產業賦能兩種形式為企業服務。已累積約500間企業客戶，舉辦超過1,000場次職場健康活動。", "en": "Midway positions itself as the bridge between medical expertise and healthy living, assembling roughly 91 professionals including therapists, psychologists, dietitians and fitness coaches. It serves enterprises through workplace health-promotion and health-industry enablement programs, having accumulated around 500 corporate clients and delivered over 1,000 workplace health sessions."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "米蔚 MIDWAY 官方網站", "url": "https://midwayforyou.com/about/"},
+      {"title": "社企流報導", "url": "https://www.seinsights.asia/article/9334"}
+    ]
+  },
+  {
+    "id": "A0856",
+    "name_en": "BacuNova BioTech Co., Ltd.",
+    "industry": {"zh": "生物科技", "en": "Biotechnology"},
+    "summary": {"zh": "研發高效能動物疫苗與疾病檢測技術的生技新創。", "en": "Biotech startup developing high-efficiency animal vaccines and disease detection."},
+    "overview": {"zh": "展興生物科技於2022年由中興大學趙裕展教授團隊在國科會科研創業計畫支持下成立，聚焦疫苗開發與疾病檢測。趙教授曾任中研院研究員、深耕病毒致病機轉與疫苗藥物研發逾30年。公司已成功開發較傳統疫苗更具效力的新型豬流行性下痢疫苗。", "en": "Founded in 2022 by Professor Chao Yu-chan's team at National Chung Hsing University under the NSTC science-entrepreneurship program, BacuNova focuses on vaccine development and disease detection. Prof. Chao, a former Academia Sinica researcher with over 30 years in viral pathogenesis and vaccine R&D, has led the development of a porcine epidemic diarrhea vaccine more effective than conventional ones."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "中興大學興創基地團隊頁", "url": "https://startup.nchu.edu.tw/team/%E5%B1%95%E8%88%88%E7%94%9F%E7%89%A9%E7%A7%91%E6%8A%80%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/"},
+      {"title": "FINDIT 平台", "url": "https://findit.org.tw/tw/Startup/RiswWENpei81cjFRekVnUHIyYmIyQT09/Basic"}
+    ]
+  },
+  {
+    "id": "A0849",
+    "name_en": "Kopherbit Co., Ltd.",
+    "industry": {"zh": "車用軟體", "en": "Automotive Software"},
+    "summary": {"zh": "車載軟體系統整合商，提供符合AUTOSAR的電動車ECU解決方案。", "en": "Automotive software integrator delivering AUTOSAR-compliant ECU solutions for EVs."},
+    "overview": {"zh": "科飛數位為工研院spin-off新創，定位車載軟體開發系統整合商，提供符合國際AUTOSAR標準的整合解決方案，包含AUTOSAR ECU、開放控制器與車載韌體。公司為汽車與Tier1供應商提供完整ECU方案，已取得台灣多數電動巴士訂單，為台灣唯一國產符合AUTOSAR架構的車載軟韌體開發公司。", "en": "Spun off from ITRI, Kopherbit is an automotive-software system integrator providing AUTOSAR-compliant solutions including AUTOSAR ECUs, open controllers and in-vehicle firmware. Serving automakers and Tier-1 suppliers with complete ECU solutions, it has won orders for most of Taiwan's electric buses and is Taiwan's only domestic AUTOSAR-architecture in-vehicle software/firmware developer."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "Kopherbit 官方網站", "url": "https://kopherbit.com/"},
+      {"title": "經濟部創業亮點", "url": "https://startup.sme.gov.tw/home/modules/highlight/detail/?sId=588"}
+    ]
+  },
+  {
+    "id": "A1012",
+    "name_en": "Bebopice Co., Ltd.",
+    "industry": {"zh": "食品製造", "en": "Food Manufacturing"},
+    "summary": {"zh": "以米麥取代鮮奶油，製作無人工添加的天然小批次冰淇淋。", "en": "Maker of small-batch natural ice cream using rice and barley instead of heavy cream."},
+    "overview": {"zh": "好時食食品成立於2022年，登記於台南／屏東，品牌為Bebopice。公司以天然食材製作小批次冰淇淋，採用米與大麥取代鮮奶油，標榜不添加人工添加物，主打健康與在地原料的點心市場。", "en": "Founded in 2022 and registered in Tainan/Pingtung, Bebopice makes small-batch ice cream from natural ingredients, replacing heavy cream with rice and barley and using no artificial additives, targeting the healthy, locally-sourced dessert market."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "台北國際食品展參展商", "url": "https://www.foodtaipei.com.tw/zh-tw/exhibitor/63983BE99D863B007F66051C2BA50222/info.html"},
+      {"title": "台灣公司網", "url": "https://www.twincn.com/item.aspx?no=90658890"}
+    ]
+  },
+  {
+    "id": "A0370",
+    "name_en": null,
+    "industry": {"zh": "農業生產", "en": "Agriculture"},
+    "summary": {"zh": "（依名稱與參賽組別推估）從事農作物友善耕作與在地農產生產。", "en": "(inferred from name and track) A farm engaged in crop cultivation and local agricultural production."},
+    "overview": {"zh": "（依名稱與參賽組別推估）順月農園應為一處農園，從事農作物栽培與農產品生產，可能採友善或永續耕作方式。歸屬綠色永續組，研判其經營方向著重永續農業與在地農產。本資料未能查得該農園確切的公開來源，僅依名稱與參賽組別推估。", "en": "(inferred from name and track) Shun Yue Farm appears to be a farm engaged in crop cultivation and agricultural production, possibly using friendly or sustainable practices. Placed in the green/sustainability track, its focus likely centers on sustainable agriculture and local produce. No confirmed public source was found; this entry is inferred from the name and competition track."},
+    "verified": false,
+    "confidence": "low",
+    "links": []
+  },
+  {
+    "id": "A1077",
+    "name_en": "1Koshijimi",
+    "industry": {"zh": "水產加工", "en": "Aquatic Products"},
+    "summary": {"zh": "以永續養殖黑蜆製作即食水產品，品牌「壹顆蜆」。", "en": "Sustainably-farmed black-clam ready-to-eat products under the brand 1Koshijimi."},
+    "overview": {"zh": "海寶珍品工作坊位於彰化縣芳苑鄉，由漁二代楊雅閔經營，品牌「壹顆蜆」主打黑蜆相關產品，如沖熱水即食的黑蜆炊粉與滷蜆冷凍包。標榜永續養殖、取得ASC國際永續水產認證與有機水產認證，並以蜆殼再製環保包裝，重視在地與社區連結。", "en": "Based in Fangyuan Township, Changhua, Haibao Treasure Workshop is run by second-generation fisher Yang Ya-min under the brand 1Koshijimi, specializing in black-clam products such as instant clam-flavored rice noodles and marinated frozen clams. It emphasizes sustainable aquaculture with ASC and organic certifications, uses recycled clam-shell eco-packaging, and stresses local and community engagement."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "壹顆蜆 官方網站", "url": "https://1koshijimi.com.tw/contact"},
+      {"title": "社會創新平台", "url": "https://startup.sme.gov.tw/sitaiwan/Home/Org?Fid=3276"}
+    ]
+  }
+]

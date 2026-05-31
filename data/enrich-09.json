@@ -1,0 +1,113 @@
+[
+  {
+    "id": "A0528",
+    "name_en": "Ohmplus Technology Inc.",
+    "industry": {"zh": "射頻量測", "en": "RF Testing"},
+    "summary": {"zh": "提供5G/6G、低軌衛星與半導體的相位陣列天線快速校正與量測技術。", "en": "Provides fast calibration and testing for phased-array antennas in 5G/6G, LEO satellite and semiconductor applications."},
+    "overview": {"zh": "歐姆佳科技成立於2021年，前身為臺灣大學的價創計畫團隊，OHM+FAST技術由臺大電信所周錫增教授團隊技轉。公司專注於5G/6G通訊、低軌衛星與半導體產業，提供相位陣列天線的快速校正、量測與多site群測系統，以及陣列天線系統設計服務。", "en": "Founded in 2021 and spun out of a National Taiwan University value-creation team, Ohmplus Technology develops the OHM+FAST technology (transferred from NTU). It focuses on 5G/6G, LEO satellite and semiconductor industries, offering fast calibration, testing and multi-site group-test systems for phased-array antennas plus array-antenna system design services."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "歐姆佳科技 Ohmplus 官網", "url": "https://www.ohmplus.com/en/"},
+      {"title": "歐姆佳科技 - FINDIT", "url": "https://findit.org.tw/twFindItiStarPage2.aspx?pageId=1890"}
+    ]
+  },
+  {
+    "id": "A0034",
+    "name_en": "Haojuen Technology Co., Ltd.",
+    "industry": {"zh": "精密製造", "en": "Precision Mfg"},
+    "summary": {"zh": "研發客製化非圓形自行車鏈盤與PCD聚晶鑽石刀具的精密製造團隊。", "en": "Develops customized non-circular bicycle chainrings and PCD diamond cutting tools."},
+    "overview": {"zh": "皓準科技成立於2022年，由國立虎尾科技大學技術團隊組成，主力產品為客製化非圓形自行車鏈盤與PCD聚晶鑽石刀具。其鏈盤可依個人踩踏數據設計齒形以提升踩踏效率，刀具則具高硬度與耐磨特性，應用於航太、汽車與模具切削，並提供機聯網與智慧製造服務。", "en": "Founded in 2022 by a National Formosa University technical team, Haojuen Technology makes customized non-circular bicycle chainrings (tooth profile designed from individual pedaling data to improve efficiency) and PCD polycrystalline-diamond cutting tools for aerospace, automotive and mold machining, alongside IoT and smart-manufacturing services."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "皓準科技 官網", "url": "https://www.haojuen.com/"},
+      {"title": "創業亮點 - 新創圓夢網", "url": "https://startup.sme.gov.tw/home/modules/highlight/detail/?sId=586"}
+    ]
+  },
+  {
+    "id": "A0630",
+    "name_en": "Sheng Fong Precision Co., Ltd.",
+    "industry": {"zh": "五金扣件", "en": "Fasteners"},
+    "summary": {"zh": "提供CNC精密零件與五金扣件的一站式採購與海外代購服務。", "en": "One-stop sourcing of CNC precision parts and hardware fasteners with overseas purchasing support."},
+    "overview": {"zh": "勝豐精密成立於2022年，專注於CNC精密零件與五金扣件，提供從零件採購、包裝、貼標到客戶指定交貨的一站式服務。公司同時代購McMaster-Carr、MISUMI等國際平台的五金零件，並結合台灣在地供應鏈，主打快速交期與成本節省。", "en": "Founded in 2022, Sheng Fong Precision specializes in CNC precision parts and hardware fasteners, offering one-stop service from parts sourcing and packaging to labeling and delivery. It also acts as a purchasing agent for international platforms such as McMaster-Carr and MISUMI, leveraging Taiwan's local supply chain for fast delivery and cost savings."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "勝豐精密 SFP 官網", "url": "https://www.sfp-tw.com/en"},
+      {"title": "勝豐精密 - 台灣公司網", "url": "https://www.twincn.com/item.aspx?no=90004816"}
+    ]
+  },
+  {
+    "id": "A1277",
+    "name_en": "KOL to Action Inc.",
+    "industry": {"zh": "網紅行銷", "en": "Influencer Marketing"},
+    "summary": {"zh": "媒合品牌與中小型KOL/KOC的跨境網紅行銷一站式合作平台。", "en": "A one-stop platform matching brands with micro KOLs/KOCs for cross-border influencer marketing."},
+    "overview": {"zh": "呼叫網紅股份有限公司成立於2024年，由美賣科技內部創業推出，提供品牌與社群創作者的一站式合作平台，整合發案與媒合流程。其聚焦於中小型KOL與KOC，以量制勝累積品牌聲量，並以跨國行銷切入市場，整合馬來西亞等東南亞影響力生態，協助台灣品牌跨境曝光。", "en": "Founded in 2024 as an internal venture of Meimai Technology, KOL to Action runs a one-stop platform connecting brands with social creators and streamlining campaign matching. It focuses on micro KOLs/KOCs to build brand voice at scale and emphasizes cross-border marketing, tapping influencer ecosystems in Malaysia and Southeast Asia to help Taiwanese brands reach overseas audiences."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "Meet 創業小聚報導", "url": "https://meet.bnext.com.tw/articles/view/51860"},
+      {"title": "呼叫網紅 - 台灣公司網", "url": "https://www.twincn.com/item.aspx?no=00193919"}
+    ]
+  },
+  {
+    "id": "A1326",
+    "name_en": "Sophie's BioNutrients (Taiwan) Co., Ltd.",
+    "industry": {"zh": "替代蛋白", "en": "Alternative Protein"},
+    "summary": {"zh": "以微生物發酵技術培育食品級微蛋白粉的永續替代蛋白新創。", "en": "Cultivates food-grade microprotein powder via microbial fermentation as a sustainable alternative protein."},
+    "overview": {"zh": "蘇菲營養生化成立於2022年，是專注於替代蛋白的生化新創，採用異養技術在大型發酵槽中培育微藻，不依賴光合作用因而無色素與異味。其開發的微蛋白含9種必需胺基酸、維生素B12與鐵質，可應用於植物奶、高蛋白飲、無乳冰淇淋與植物肉等食品，並獲新加坡淡馬錫基金投資。", "en": "Founded in 2022, Sophie's BioNutrients (Taiwan) is a biotech startup focused on alternative protein. Using heterotrophic fermentation to grow microalgae in large tanks without photosynthesis, it produces odorless, pigment-free microprotein rich in nine essential amino acids, vitamin B12 and iron for plant milk, protein drinks, dairy-free ice cream and plant-based meat. It is backed by Singapore's Temasek."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "環球生技月刊報導", "url": "https://news.gbimonthly.com/tw/magazine/article_show.php?num=67215"},
+      {"title": "蘇菲營養生化 - 台灣公司網", "url": "https://twincn.com/item.aspx?no=90596348"}
+    ]
+  },
+  {
+    "id": "A0168",
+    "name_en": "Vitruvian Sports Technology Co., Ltd.",
+    "industry": {"zh": "運動科技", "en": "Sports Tech"},
+    "summary": {"zh": "結合科技與運動訓練，提供體能評估與智慧化運動服務的新創。", "en": "A sports-tech startup combining technology with athletic training for fitness assessment and smart exercise services."},
+    "overview": {"zh": "（依名稱與參賽組別推估）維特魯威運動科技股份有限公司未能找到公開可查的官方資料。依其名稱「維特魯威」（達文西維特魯威人，象徵理想人體比例）與「運動科技」及消費生活組屬性研判，該公司應從事運動科技領域，可能結合感測、數據或AI技術，提供體能訓練、運動表現評估或智慧健身相關產品與服務。", "en": "(inferred from name and track) No public official record could be found for Vitruvian Sports Technology Co., Ltd. Given its name (Vitruvian, evoking the Vitruvian Man and ideal body proportions), the 'sports technology' descriptor, and its consumer-lifestyle track, it likely operates in sports tech, possibly combining sensing, data or AI to offer fitness training, athletic-performance assessment or smart-fitness products and services."},
+    "verified": false,
+    "confidence": "low",
+    "links": []
+  },
+  {
+    "id": "A1355",
+    "name_en": "ChoozMo Inc.",
+    "industry": {"zh": "AI影音", "en": "AI Video"},
+    "summary": {"zh": "以AI虛擬主播與多模態技術，將圖文簡報自動生成影片的內容工具。", "en": "Generates videos from text and slides using AI virtual anchors and multimodal technology."},
+    "overview": {"zh": "集仕多股份有限公司成立於2020年，團隊來自工研院、台積電、中華電信研究院與台清交等。其ChoozMo產品可輸入圖文或簡報檔，搭配AI虛擬代言人自動生成講解影片，結合視覺、語音與NLP等多模態技術，並推出台灣首位AI主播韓小夏，應用於教育內容、企業導覽與短影音市場。", "en": "Founded in 2020 with a team from ITRI, TSMC, Chunghwa Telecom Labs and top Taiwanese universities, ChoozMo Inc. offers an online video tool that turns text or slides into videos narrated by AI virtual presenters, combining vision, speech and NLP. It launched Taiwan's first AI anchor 'Han Xiaxia' and serves education content, corporate-tour and short-video markets."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "集仕多 ChoozMo 官網", "url": "https://ai.choozmo.com/aboutus/info/"},
+      {"title": "鏡週刊報導", "url": "https://www.mirrormedia.mg/story/20231219ind004"}
+    ]
+  },
+  {
+    "id": "A0667",
+    "name_en": "GuangTai Green Co., Ltd.",
+    "industry": {"zh": "微水力發電", "en": "Micro-Hydropower"},
+    "summary": {"zh": "研發超低落差微水力發電技術，推動分散式綠電與東南亞應用。", "en": "Develops ultra-low-head micro-hydropower technology for distributed green electricity."},
+    "overview": {"zh": "廣太綠能股份有限公司由創辦人陳昶宇於2021年返鄉花蓮成立，專注於微水力發電技術。其開發的「超低落差微水力發電系統」僅需約1.2公尺水位差即可穩定發電，遠低於傳統水力門檻，瞄準分散式綠電與東南亞市場，並獲環境部環保友善設計競賽產品設計類首獎。", "en": "Founded in 2021 in Hualien by Chen Chang-Yu, GuangTai Green develops micro-hydropower technology. Its ultra-low-head micro-hydro system generates power stably with only about 1.2 meters of head, far below conventional hydro thresholds, targeting distributed green electricity and Southeast Asian markets. It won first prize in the product-design category of Taiwan's Environmental Ministry friendly-design competition."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "廣太綠能 GuangTai Green 官網", "url": "https://gt-green.com/"},
+      {"title": "Reccessary 報導", "url": "https://www.reccessary.com/zh-tw/news/guangtai-green-energy-ultra-low-head-hydropower-generator"}
+    ]
+  },
+  {
+    "id": "A1219",
+    "name_en": "Taiwan Dye Co., Ltd.",
+    "industry": {"zh": "永續染色", "en": "Sustainable Dyeing"},
+    "summary": {"zh": "推動環保永續染色技術，發展低污染天然或循環染整的綠色新創。", "en": "A green startup advancing eco-friendly, sustainable dyeing with low-pollution natural or circular processes."},
+    "overview": {"zh": "（依名稱與參賽組別推估）台灣染有限公司未能找到公開可查的官方資料。依其名稱「染」與綠色永續組屬性研判，該公司應從事永續染色或環保染整領域，可能運用天然植物染、微生物染料或減廢節水等技術，以降低傳統紡織染整製程的廢水與污染，發展循環經濟的綠色染色解決方案。", "en": "(inferred from name and track) No public official record could be found for Taiwan Dye Co., Ltd. Given its name (referencing dyeing) and its green-sustainability track, it likely works in sustainable dyeing or eco-friendly dye-finishing, possibly using natural plant dyes, microbial dyes or water- and waste-reduction techniques to cut the wastewater and pollution of conventional textile dyeing and deliver circular-economy green dyeing solutions."},
+    "verified": false,
+    "confidence": "low",
+    "links": []
+  }
+]

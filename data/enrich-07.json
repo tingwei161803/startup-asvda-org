@@ -1,0 +1,118 @@
+[
+  {
+    "id": "A0260",
+    "name_en": "Atomic Refining Co., Ltd.",
+    "industry": {"zh": "半導體設備", "en": "Semiconductor Equipment"},
+    "summary": {"zh": "研發製造原子層沉積與真空鍍膜設備，服務半導體先進製程。", "en": "Develops atomic-layer-deposition and vacuum-coating equipment for advanced semiconductor processes."},
+    "overview": {"zh": "原子精製股份有限公司位於台南，登記營業項目涵蓋原子層沉積（ALD）設備及零組件、真空鍍膜系統的研發、生產與銷售。公司鎖定半導體與先進製程的薄膜沉積與表面處理應用，屬深度科技裝置製造商。", "en": "Based in Tainan, Atomic Refining develops, manufactures and sells atomic-layer-deposition (ALD) equipment, components and vacuum-coating systems. It targets thin-film deposition and surface-treatment applications for semiconductor and advanced manufacturing, positioning itself as a deep-tech equipment maker."},
+    "verified": true,
+    "confidence": "medium",
+    "links": [
+      {"title": "原子精製股份有限公司 - TechNews 企業資料", "url": "https://info.technews.tw/company/82969941-%E5%8E%9F%E5%AD%90%E7%B2%BE%E8%A3%BD%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8"}
+    ]
+  },
+  {
+    "id": "A1059",
+    "name_en": "SparkGen",
+    "industry": {"zh": "建築AI", "en": "Architectural AI"},
+    "summary": {"zh": "打造AI×BIM平台，以生成式AI加速建築前期設計與法規檢核。", "en": "Builds an AI x BIM platform that accelerates early-stage architectural design and code compliance with generative AI."},
+    "overview": {"zh": "築智科技（SparkGen）源自東海大學價創計畫，致力於打造台灣首屈一指的AI×BIM建築設計平台。其推出巧達匠（深度學習量體生成）、算容匠（智慧容積與AI法規檢核）、模估匠（AI成本預估）等工具，解決建築設計週期長、知識傳承不易等痛點。", "en": "Spun out of Tunghai University's value-creation program, SparkGen builds an AI x BIM platform for architecture. Its tools generate building massing via deep learning, run smart volume and AI-assisted regulatory checks, and predict construction costs, addressing long design cycles and knowledge-transfer pain points in the architecture industry."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "SparkGen 築智科技 官網", "url": "https://sparkgen.cc/"},
+      {"title": "SparkGen 築智科技 - YouTube", "url": "https://www.youtube.com/@SparkGenTW"}
+    ]
+  },
+  {
+    "id": "A0466",
+    "name_en": "Parenting Learning Co., Ltd.",
+    "industry": {"zh": "兒童教育", "en": "Kids EdTech"},
+    "summary": {"zh": "親子天下旗下公司，為3-12歲孩童打造寓教於樂的數位影音內容。", "en": "A Parenting (CommonWealth) subsidiary delivering edutainment digital audio-video content for children aged 3-12."},
+    "overview": {"zh": "親子學股份有限公司成立於2023年，為親子天下集團旗下公司，由何琦瑜擔任負責人。公司專注於為華語區3-12歲兒童打造高品質、寓教於樂的影音內容，提供Podcast、有聲書、線上課程與學習平台等數位學習產品。", "en": "Founded in 2023 as a subsidiary of the Parenting (CommonWealth) group and led by Chyi-Yu Ho, Parenting Learning creates high-quality edutainment audio-video content for Chinese-speaking children aged 3-12, offering podcasts, audiobooks, online courses and learning platforms."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "關於親子學 - 親子天下", "url": "https://activity.parenting.com.tw/brandinfo_edutainment-1357"},
+      {"title": "親子學股份有限公司 - FINDIT 平台", "url": "https://findit.org.tw/tw/Startup/ZkhLNUFMUmlKclZTczVhSlhlQTJvZz09/Basic"}
+    ]
+  },
+  {
+    "id": "A1104",
+    "name_en": "Mom&Dad Story",
+    "industry": {"zh": "兒童內容", "en": "Kids Content"},
+    "summary": {"zh": "經營「媽爹講故事」品牌，為孩童製作有聲故事App與Podcast。", "en": "Runs the Mom&Dad Story brand, producing children's audio-story apps and podcasts."},
+    "overview": {"zh": "小耳朵文化傳媒股份有限公司成立於2021年，由「華爸&鳥媽」（曾為歌手與YouTuber，知名為Mom&Dad）創立。公司營運「媽爹講故事」有聲故事App與Podcast頻道，為不同成長階段的孩子打造高品質且具娛樂性的故事內容，屬文化創意與電子商務領域。", "en": "Founded in 2021 by the couple behind the Mom&Dad brand (former singers and YouTubers), Little Ears Cultural Media operates the Mom&Dad Story audio-story app and podcast channel, producing high-quality, entertaining stories for children across developmental stages in the cultural-content and e-commerce space."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "小耳朵文化傳媒 - 新創圓夢網創業亮點", "url": "https://startup.sme.gov.tw/home/modules/highlight/detail/?sId=544"},
+      {"title": "小耳朵文化傳媒股份有限公司 - 104 人力銀行", "url": "https://www.104.com.tw/company/1a2x6bn4qq"}
+    ]
+  },
+  {
+    "id": "A1018",
+    "name_en": "Gredio",
+    "industry": {"zh": "農業生技", "en": "Agri-Biotech"},
+    "summary": {"zh": "從事農牧服務與生物相關製品，發展永續導向的農業應用。", "en": "Provides agricultural and livestock services and bio-derived products for sustainability-oriented farming applications."},
+    "overview": {"zh": "格雷迪奧股份有限公司成立於2022年，位於台中，登記營業項目包含其他農事及畜牧服務、化粧品製造、化學原材料批發與專業科學技術服務，並曾參展臺灣智慧農業週。研判其聚焦於農牧與生物相關製品的智慧農業應用，呼應綠色永續主題。", "en": "Founded in 2022 in Taichung, Gredio is registered for agricultural and livestock services, cosmetics manufacturing, chemical-materials wholesale and scientific-technical services, and has exhibited at Taiwan Smart Agriweek. It appears focused on agri/livestock and bio-derived products for smart, sustainability-oriented farming."},
+    "verified": true,
+    "confidence": "medium",
+    "links": [
+      {"title": "格雷迪奧股份有限公司 - 臺灣智慧農業週參展商", "url": "https://www.taiwanagriweek.com/exhibitor-detail/CU01061214/"},
+      {"title": "格雷迪奧股份有限公司 - 台灣公司網", "url": "https://www.twincn.com/item.aspx?no=90031314"}
+    ]
+  },
+  {
+    "id": "A0964",
+    "name_en": "Holon Robotics Corporation",
+    "industry": {"zh": "工業機器人", "en": "Industrial Robotics"},
+    "summary": {"zh": "以AI驅動的HolonOS讓工業機械手臂部署像下載App一樣快速直覺。", "en": "Its AI-driven HolonOS makes deploying industrial robot arms as fast and intuitive as installing an app."},
+    "overview": {"zh": "赫侖股份有限公司成立於2025年，為工研院衍生新創，位於新竹縣，創辦人羅元玠出身台大應力所與工研院。其HolonOS結合多功能感測器、工業機器人整合與AI數據分析，將技師經驗數位化並自動規劃手臂路徑，協助傳產工廠快速、低成本邁向自動化。", "en": "Founded in 2025 in Hsinchu as an ITRI spin-off, Holon Robotics was started by Yuan-Chieh Lo. Its HolonOS combines multi-function sensors, industrial-robot integration and AI data analysis to digitize technicians' know-how and auto-plan robot-arm paths, helping traditional factories automate quickly and at low cost."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "機器人OS來了！Holon - TREE 新創", "url": "https://tree.meetbao.net/2025/06/%E6%A9%9F%E5%99%A8%E4%BA%BAos%E4%BE%86%E4%BA%86%EF%BC%81%E3%80%80holon%E8%AE%93%E5%B7%A5%E5%BB%A0%E5%8D%87%E7%B4%9A%E5%B0%B1%E5%83%8F%E4%B8%8B%E8%BC%89app%E4%B8%80%E6%A8%A3%E5%BF%AB/"},
+      {"title": "赫侖科技如何讓工廠全自動化 - Meet創業小聚", "url": "https://meet.bnext.com.tw/articles/view/52289"}
+    ]
+  },
+  {
+    "id": "A1187",
+    "name_en": "Bricks Travel Inc.",
+    "industry": {"zh": "旅遊服務", "en": "Travel Services"},
+    "summary": {"zh": "彰化在地旅行社，提供國內外旅遊行程與相關旅遊服務。", "en": "A Changhua-based travel agency offering domestic and outbound tours and related travel services."},
+    "overview": {"zh": "積木旅遊旅行社股份有限公司成立於2021年，位於彰化縣永靖鄉，負責人為黃韋典，已於交通部觀光署登記為合法旅行社。公司提供旅遊行程規劃與旅遊服務，屬消費生活旅遊領域的新創旅行社。", "en": "Founded in 2021 in Yongjing, Changhua, and led by Wei-Tien Huang, Bricks Travel Inc. is a licensed travel agency registered with Taiwan's Tourism Administration. It provides tour planning and travel services as a startup travel agency in the consumer-lifestyle sector."},
+    "verified": true,
+    "confidence": "medium",
+    "links": [
+      {"title": "積木旅遊旅行社 - 交通部觀光署行政資訊網", "url": "https://admin.taiwan.net.tw/BusinessInfo/Insurance?a=220&id=848600&p=121"},
+      {"title": "積木旅遊旅行社股份有限公司 - 台灣公司網", "url": "https://www.twincn.com/item.aspx?no=90431867"}
+    ]
+  },
+  {
+    "id": "A0534",
+    "name_en": "Taiwan Microgrid Technology Co., Ltd.",
+    "industry": {"zh": "微電網", "en": "Microgrid"},
+    "summary": {"zh": "提供微電網一站式服務，整合儲能、充電與氫能能源解決方案。", "en": "Provides one-stop microgrid services integrating energy storage, EV charging and hydrogen solutions."},
+    "overview": {"zh": "台灣微網科技股份有限公司成立於2023年，核心團隊來自中興電工與台達電子，深耕微電網領域逾十年。公司提供自規劃設計、系統整合到建置維運的微電網一站式服務，主力包含儲能、充電站與氫燃料電池（含綠氫微電網）解決方案。2025年入選國發會「創業大聯盟」前300強並獲Garage+選為能源領域MustSee Startup。", "en": "Founded in 2023, Taiwan Microgrid Technology was started by a team from Chung-Hsin Electric and Delta Electronics with over a decade in microgrids. It offers one-stop microgrid services from design and system integration to construction and O&M, focused on energy storage, EV-charging and hydrogen fuel-cell (including green-hydrogen microgrid) solutions. In 2025 it was named a top-300 team in the NDC Startup Alliance competition and a Garage+ MustSee energy startup."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "台灣微網科技股份有限公司 官網", "url": "https://taiwanmicrogrid.com/"},
+      {"title": "台灣微網用微電網+AI解決電力不平衡 - Meet創業小聚", "url": "https://meet.bnext.com.tw/articles/view/52174"}
+    ]
+  },
+  {
+    "id": "A1103",
+    "name_en": "PuNong Biotech Co., Ltd.",
+    "industry": {"zh": "農業生技", "en": "Agri-Biotech"},
+    "summary": {"zh": "台灣首家自主生產核多角體病毒生物農藥的農業生技公司。", "en": "Taiwan's first agri-biotech firm independently producing baculovirus (NPV) biopesticides."},
+    "overview": {"zh": "樸農生技股份有限公司成立於2020年，位於屏東縣長治鄉，負責人為林弘人。公司是台灣首家能自主生產核多角體病毒（NPV）作為生物農藥的農業生技公司，針對甜菜夜蛾、斜紋夜蛾等鱗翅目害蟲開發病毒製劑，並建置生物防治資材量產系統與應用服務，呼應友善環境的永續農業。", "en": "Founded in 2020 in Changzhi, Pingtung, and led by Hung-Jen Lin, PuNong Biotech is Taiwan's first agri-biotech company to independently produce nucleopolyhedrovirus (NPV) as a biopesticide. It develops viral formulations against lepidopteran pests such as beet and Oriental armyworm and builds mass-production systems and application services for biological control, supporting eco-friendly sustainable agriculture."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "樸農生技股份有限公司 - 臺灣智慧農業週參展商", "url": "https://www.taiwanagriweek.com/exhibitor-detail/CU01060858/"},
+      {"title": "樸農生技股份有限公司 - 104 人力銀行", "url": "https://www.104.com.tw/company/1a2x6bm2xv"}
+    ]
+  }
+]
