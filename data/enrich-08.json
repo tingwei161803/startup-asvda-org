@@ -1,0 +1,113 @@
+[
+  {
+    "id": "A0508",
+    "name_en": "Ranictek Inc.",
+    "industry": {"zh": "通訊晶片", "en": "Communication IC"},
+    "summary": {"zh": "設計5G/6G基地台與衛星通訊晶片，主打節能與成本效益的無線方案。", "en": "Designs 5G/6G base-station and satellite-communication chips for energy-efficient wireless networks."},
+    "overview": {"zh": "繁晶科技成立於2022年，總部位於台北南港，是一家IC設計新創。其核心技術為Massive MIMO大型陣列天線與Digital Beamforming數位波束成形，提供5G/6G基地台與衛星通訊基頻晶片解決方案，主打兼具節能與成本效益的無線網路方案，曾入選2023 InnoVEX新創競賽Top 10。", "en": "Founded in 2022 and headquartered in Nangang, Taipei, Ranictek is an IC-design startup. Built on Massive MIMO array-antenna and digital beamforming technology, it provides baseband chip solutions for 5G/6G base stations and satellite communications, emphasizing energy efficiency and cost-effectiveness. It was named a Top 10 startup at InnoVEX 2023."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "繁晶科技 Ranictek 官網", "url": "https://www.ranictek.com.tw/"},
+      {"title": "繁晶科技 - 新創101", "url": "https://startup101.biz/startups/2335/%E7%B9%81%E6%99%B6%E7%A7%91%E6%8A%80%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8"}
+    ]
+  },
+  {
+    "id": "A1192",
+    "name_en": "FM&G Biomed Inc.",
+    "industry": {"zh": "再生醫材", "en": "Regenerative Biomaterials"},
+    "summary": {"zh": "以專利膠原蛋白萃取技術開發再生醫材，應用於組織修復與3D生物列印。", "en": "Develops collagen-based regenerative biomaterials for tissue repair and 3D bioprinting."},
+    "overview": {"zh": "凱恩生醫成立於2022年，為成功大學衍生新創，位於台南。公司擁有膠原蛋白萃取與純化的專利技術，專注於膠原蛋白等生物材料的研發、製造與衍生應用，已開發出非重組多孔膠原蛋白支架等產品；其活性膠原蛋白凝膠黏度遠高於同業，具高純度與高濃度特性，適用於3D生物列印與細胞培養。", "en": "Founded in 2022 as a National Cheng Kung University spin-off based in Tainan, FM&G Biomed holds patented collagen extraction and purification technology. It focuses on the R&D, manufacturing and applications of biomaterials such as collagen, having developed non-reconstituted porous collagen-matrix products. Its high-purity, high-concentration active collagen gel offers far higher viscosity than competitors, suited to 3D bioprinting and cell culture."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "凱恩生醫 FM&G Biomed 官網", "url": "https://fmg-biomed.com/"},
+      {"title": "凱恩生醫 - 台灣公司網", "url": "https://www.twincn.com/item.aspx?no=90401152"}
+    ]
+  },
+  {
+    "id": "A0542",
+    "name_en": "Kai Kombucha",
+    "industry": {"zh": "發酵飲品", "en": "Fermented Beverage"},
+    "summary": {"zh": "以傳統發酵工法釀造含活菌的真康普茶，使用台灣在地農產原料。", "en": "Brews living-culture kombucha by traditional fermentation using local Taiwanese produce."},
+    "overview": {"zh": "康普食飲成立於2020年，位於新北市新莊，品牌為「Kai Kombucha」。創辦人Ross與Cindy主打以傳統發酵工法釀造的「真康普茶」，每瓶含活性菌種與複雜風味，並運用台灣在地農產原料創造在地風味，有別於市面上以配方調製的康普茶飲料。營業範圍涵蓋飲料製造、批發零售與食品顧問。", "en": "Founded in 2020 in Xinzhuang, New Taipei, Kai Kombucha is brewed by founders Ross and Cindy using traditional fermentation to deliver 'true kombucha'—each bottle containing live cultures and complex flavor, made with local Taiwanese produce, unlike formula-mixed kombucha drinks. Its business spans beverage manufacturing, wholesale/retail and food consulting."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "Kai Kombucha 官網", "url": "https://kaikombucha.com/en"},
+      {"title": "康普食飲 - FINDIT", "url": "https://findit.org.tw/tw/Startup/Ni9wUnpKQ2hKVW1tMk5kaSttS2x6dz09/Basic"}
+    ]
+  },
+  {
+    "id": "A1197",
+    "name_en": "AI SOLLY",
+    "industry": {"zh": "教育科技", "en": "EdTech"},
+    "summary": {"zh": "開發特殊教育AI社交練習夥伴「AI SOLLY」，協助特教生練習社交溝通。", "en": "Builds 'AI SOLLY', an AI social-practice companion for special-education students."},
+    "overview": {"zh": "索力星球成立於2024年，位於台北中山區，核心產品為「AI SOLLY 特殊教育社交練習小夥伴」。其結合生成式AI、情緒辨識與108課綱特教社交領域，協助特殊學童進行對話與社交練習，教材涵蓋情緒處理、人際互動等多個學習領域。產品自2023年底推出後已進入全台多縣市數百所小學，並獲HolonIQ 2025 Taiwan EdTech 50肯定。", "en": "Founded in 2024 in Zhongshan District, Taipei, Cosmo Fii's flagship product is 'AI SOLLY', a social-practice companion for special-education students. Combining generative AI, emotion recognition and Taiwan's special-education social curriculum, it helps children practice dialogue and social skills across themes such as emotion management and interpersonal interaction. Launched in late 2023, it has reached hundreds of elementary schools across Taiwan and was selected for HolonIQ 2025 Taiwan EdTech 50."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "AI SOLLY 官網", "url": "https://aisolly.polakids.com.tw/en/free-trial"},
+      {"title": "索力星球 - FINDIT", "url": "https://findit.org.tw/tw/Startup/YXBiR3JlcU9YekdyU0g2RmtZS3hsQT09/Basic"}
+    ]
+  },
+  {
+    "id": "A1284",
+    "name_en": "Hearing Action",
+    "industry": {"zh": "聽力健康", "en": "Hearing Health"},
+    "summary": {"zh": "推廣聽力健康，從輕度聽損輔聽器材切入並結合專業聽力照護。", "en": "Promotes hearing health via assistive listening devices and professional hearing care."},
+    "overview": {"zh": "邦易聽成立於2021年，位於台北松山區，品牌為「聽力行動」，為社會創新企業。面對全球高齡化加劇的聽損問題，公司致力於推廣聽力健康，鼓勵聽損者使用輔聽科技，從輕度聽損的聽力放大器材切入，並結合完整的專業聽力照護以改善生活品質。", "en": "Founded in 2021 in Songshan District, Taipei, and operating under the brand 'Hearing Action', BonEasy is a social-innovation enterprise. Addressing hearing loss amid global aging, it promotes hearing health and encourages adoption of assistive listening technology—starting with sound-amplification devices for mild hearing loss—paired with comprehensive professional hearing care to improve quality of life."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "聽力行動 Hearing Action 官網", "url": "https://hearingaction.com/"},
+      {"title": "邦易聽 - 社會創新平台", "url": "https://si.taiwan.gov.tw/Home/Org?Fid=924"}
+    ]
+  },
+  {
+    "id": "A1464",
+    "name_en": "Phasetrum Inc.",
+    "industry": {"zh": "射頻晶片", "en": "RF Chip Design"},
+    "summary": {"zh": "設計高頻射頻晶片，提供衛星通訊與相控雷達的相位陣列方案。", "en": "Designs high-frequency RF chips for satellite communications and phased-array radar."},
+    "overview": {"zh": "星相科技位於新竹，專長CMOS/GaN的RF IC設計，以新型相位差專利架構整合RF IC、PCB與天線，提供衛星通訊與相控雷達的整體方案。產品應用於汽車雷達、無人機通訊偵測與輕型衛星相位陣列天線。2024年於衛星展推出全球首款可擴充型天線封裝晶片(AIP)與相差陣列型相位調整器(Phase Tuner)。", "en": "Based in Hsinchu, Phasetrum specializes in CMOS/GaN RF IC design, using a novel phase-difference patented architecture that integrates RF IC, PCB and antenna to deliver complete solutions for satellite communications and phased-array radar. Its products serve automotive radar, drone communication/detection and lightweight satellite phased-array antennas. In 2024 it launched the world's first scalable antenna-in-package (AIP) chip and a phase-difference-array Phase Tuner at SATELLITE."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "星相科技 Phasetrum 官網", "url": "https://phasetrum.com/"},
+      {"title": "創業亮點 - 新創圓夢網", "url": "https://startup.sme.gov.tw/home/modules/highlight/detail/?sId=592"}
+    ]
+  },
+  {
+    "id": "A1236",
+    "name_en": "",
+    "industry": {"zh": "生活製品", "en": "Lifestyle Goods"},
+    "summary": {"zh": "（依名稱與參賽組別推估）以記憶與紀念為主題，製造生活相關製品。", "en": "(inferred from name and track) Manufactures lifestyle goods themed around memory and keepsakes."},
+    "overview": {"zh": "（依名稱與參賽組別推估）記持製造的名稱中「記持」有記憶、留存之意，「製造」指向產品生產，研判其可能為一家以記憶、紀念或情感連結為主題的生活製品製造商，產品可能涵蓋紀念品、客製化或文創類生活用品。歸屬消費生活組，面向一般消費市場。本資料未能查得該公司確切的公開來源，僅依公司名稱與參賽組別推估。", "en": "(inferred from name and track) The name combines 'memory/keeping' with 'manufacturing', suggesting Jichi Manufacturing may be a maker of lifestyle goods themed around memory, commemoration or emotional connection, possibly spanning keepsakes, customized items or cultural-creative everyday products. Placed in the consumer/lifestyle track, it targets the general consumer market. No confirmed public source was found; this entry is inferred from the company name and competition track."},
+    "verified": false,
+    "confidence": "low",
+    "links": []
+  },
+  {
+    "id": "A0619",
+    "name_en": "",
+    "industry": {"zh": "智慧農業", "en": "Smart Agriculture"},
+    "summary": {"zh": "推動蘆筍全株利用與智慧農業，以社會企業模式活化嘉義農村。", "en": "A social enterprise advancing full-plant asparagus use and smart farming to revitalize rural Chiayi."},
+    "overview": {"zh": "崙禾社會企業成立於2021年，位於嘉義縣溪口鄉，由陳梧桐創立，盼振興家鄉農村。公司推廣高經濟價值蘆筍栽培以解決傳統農業低報酬問題，並開發蘆筍加工食品提升附加價值、減少廢棄、創造循環經濟。導入智慧農業搭建環控蘆筍溫室，並將獲利投入農村經濟、環境保護、社區發展、教育文化與社會關懷五大面向。", "en": "Founded in 2021 in Xikou Township, Chiayi by Chen Wu-tong to revitalize his hometown, Lunwo Social Enterprise promotes high-value asparagus cultivation to counter low returns in traditional farming and develops asparagus-processed foods to add value, reduce waste and build a circular economy. It introduces smart-agriculture environmental-control greenhouses and directs profits to rural economy, environmental protection, community development, education/culture and social care."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "崙禾社企官網", "url": "https://www.lwse.com.tw/"},
+      {"title": "崙禾社會企業 - 社會創新平台", "url": "https://si.taiwan.gov.tw/Home/Org?Fid=920"}
+    ]
+  },
+  {
+    "id": "A1142",
+    "name_en": "",
+    "industry": {"zh": "永續薄膜", "en": "Sustainable Film"},
+    "summary": {"zh": "（依名稱與參賽組別推估）開發環保薄膜或植物基膜材，應用於永續包裝。", "en": "(inferred from name and track) Develops eco-friendly films or plant-based membrane materials for sustainable packaging."},
+    "overview": {"zh": "（依名稱與參賽組別推估）膜栗的名稱中「膜」指薄膜或膜材，「栗」可能指涉栗子等植物原料，研判其可能為一家開發環保薄膜或植物基膜材的企業，產品方向或為可分解／永續包裝薄膜、農林副產物再利用之膜材等。歸屬綠色永續組，著重綠色材料與循環應用。本資料未能查得該公司確切的公開來源，僅依公司名稱與參賽組別推估。", "en": "(inferred from name and track) The name pairs 'film/membrane' with 'chestnut', hinting at a possible plant-derived raw material, suggesting Moli may develop eco-friendly films or plant-based membrane materials—potentially biodegradable or sustainable packaging films, or membranes reusing agricultural/forestry byproducts. Placed in the green/sustainability track, it emphasizes green materials and circular applications. No confirmed public source was found; this entry is inferred from the company name and competition track."},
+    "verified": false,
+    "confidence": "low",
+    "links": []
+  }
+]

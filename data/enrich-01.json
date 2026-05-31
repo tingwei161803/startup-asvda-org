@@ -1,0 +1,111 @@
+[
+  {
+    "id": "A0004",
+    "name_en": "Taiwan Ruomei Technology Co., Ltd.",
+    "industry": {"zh": "熱管理材料", "en": "Thermal Tech"},
+    "summary": {"zh": "開發次世代散熱材料，解決高功耗晶片的熱管理瓶頸。", "en": "Develops next-generation thermal-management materials for high-power chips."},
+    "overview": {"zh": "台灣若美科技成立於2022年，是一家專注於熱管理的深度科技公司。其開發具熱輻射共振效應的散熱油墨、散熱塑膠等先進材料，提升PCB與電子產品散熱效能，以因應GPU/CPU功率密度攀升的散熱挑戰。", "en": "Founded in 2022, Taiwan Ruomei is a deep-tech company focused on thermal management. It develops advanced materials such as heat-dissipating solder-resist ink and thermal plastics to improve PCB and electronics cooling as chip power density rises."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "TR 台灣若美科技官網", "url": "https://ruomei.com.tw/"},
+      {"title": "創業亮點 - 新創圓夢網", "url": "https://startup.sme.gov.tw/home/modules/highlight/detail/?sId=591"}
+    ]
+  },
+  {
+    "id": "A0565",
+    "name_en": "Asia Pathogenomics Co., Ltd.",
+    "industry": {"zh": "精準醫療", "en": "Precision Diagnostics"},
+    "summary": {"zh": "運用基因定序與生物資訊技術，精準鑑定難治型感染的致病病原。", "en": "Uses gene sequencing and bioinformatics to precisely identify pathogens in hard-to-treat infections."},
+    "overview": {"zh": "亞洲準譯成立於2020年，專注於以次世代基因定序與生物資訊技術，找出傳統臨床檢驗難以偵測的病原體。其為國內取得衛福部LDTS認證的病原基因定序檢測業者，可提升難治型重症感染的檢出率。", "en": "Founded in 2020, Asia Pathogenomics applies next-generation sequencing and bioinformatics to detect pathogens that traditional clinical tests miss. It is a Taiwan provider of pathogen-sequencing testing with MOHW LDTS certification, improving detection in severe drug-resistant infections."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "亞洲準譯 APG 官網", "url": "https://www.asiapathogenomics.com/tw"},
+      {"title": "環球生技月刊報導", "url": "https://news.gbimonthly.com/tw/article/show.php?num=70025"}
+    ]
+  },
+  {
+    "id": "A0078",
+    "name_en": "Manga Co., Ltd.",
+    "industry": {"zh": "數位內容", "en": "Digital Content"},
+    "summary": {"zh": "提供漫畫等數位內容相關的資訊服務與線上平台營運。", "en": "Provides manga and digital-content information services and online platform operations."},
+    "overview": {"zh": "日美資訊成立於2023年，登記營業項目包含資訊軟體服務與廣告服務，英文名為Manga Co., Ltd.，並招募前端與Python工程師，研判其經營漫畫等數位內容的線上平台與相關資訊服務。", "en": "Founded in 2023, Manga Co., Ltd. is registered for information-software and advertising services and recruits front-end and Python engineers, indicating an online digital-content (manga) platform and related information services."},
+    "verified": true,
+    "confidence": "medium",
+    "links": [
+      {"title": "日美資訊 - 104 人力銀行", "url": "https://www.104.com.tw/company/1a2x6bmrqk"},
+      {"title": "日美資訊 - 台灣公司網", "url": "https://www.twincn.com/item.aspx?no=93483115"}
+    ]
+  },
+  {
+    "id": "A0636",
+    "name_en": "Goodfoodeveryday Co., Ltd.",
+    "industry": {"zh": "食品品牌", "en": "Food Brand"},
+    "summary": {"zh": "主打低醣麵食的食品品牌，提供健康無負擔的減醣主食。", "en": "A food brand specializing in low-carb noodles for healthier everyday eating."},
+    "overview": {"zh": "日日好食成立於2020年，是一家以「減醣」為訴求的食品品牌，主力產品為碳水含量約一般麵食一半的低醣麵。產品透過官網、蝦皮及量販通路販售，主打美味與健康兼顧的主食選擇。", "en": "Founded in 2020, Goodfoodeveryday is a food brand centered on reduced-carbohydrate eating. Its flagship low-carb noodles contain about half the carbs of regular noodles, sold via its website, Shopee and retail channels as a tasty yet healthier staple."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "日日好食官網", "url": "https://goodfoodeveryday.com.tw/"},
+      {"title": "日日好食 - 台灣公司網", "url": "https://twincn.com/item.aspx?no=83438794"}
+    ]
+  },
+  {
+    "id": "A0020",
+    "name_en": "",
+    "industry": {"zh": "寵物生技", "en": "Pet Biotech"},
+    "summary": {"zh": "結合寵物營養與生技應用教育，提供營養與管理顧問服務。", "en": "Combines pet nutrition with biotech-application education and consulting services."},
+    "overview": {"zh": "星耀生技教育為設於臺南的有限公司，聚焦生技應用教育，結合寵物營養、產品教育與經營管理輔導。其以生技為基礎提供寵物營養知識與管理顧問服務，屬綠色永續導向的生技教育新創。", "en": "Based in Tainan, Xingyao Biotech Education focuses on biotech-application education, combining pet nutrition, product education and management consulting. It provides biotech-based pet-nutrition knowledge and advisory services as a sustainability-oriented biotech education startup."},
+    "verified": true,
+    "confidence": "medium",
+    "links": [
+      {"title": "星耀生技教育 - 台灣公司網", "url": "https://twincn.com/item.aspx?no=00066532"},
+      {"title": "星耀教育 - Instagram", "url": "https://www.instagram.com/xingyao_inst/"}
+    ]
+  },
+  {
+    "id": "A1579",
+    "name_en": "xMight Corporation",
+    "industry": {"zh": "智慧能源", "en": "Smart Energy"},
+    "summary": {"zh": "打造電動車充電與儲能電力管理平台，優化電網負載。", "en": "Builds an EV-charging and energy-storage power-management platform to optimize grid load."},
+    "overview": {"zh": "岳鼎智慧能源（xMight）專注於電力管理與電動車充電整合服務。其xMight平台具備需量管理、動態充電功率控制與計費最佳化，協助商辦、社區與停車場在有限電力下解決充電需求，並為Tesla等客戶提供充電服務。", "en": "xMight (Yueding Smart Energy) focuses on power management and EV-charging integration. Its xMight platform offers demand management, dynamic charging-power control and optimized billing, helping commercial buildings, residences and parking lots charge EVs under power constraints, serving clients such as Tesla."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "岳鼎智慧能源 - Taiwan Tech Arena", "url": "https://www.taiwanarena.tech/startups-detail/XMIGHT/"},
+      {"title": "Meet創業小聚報導", "url": "https://meet.bnext.com.tw/articles/view/44968"}
+    ]
+  },
+  {
+    "id": "A0276",
+    "industry": {"zh": "消費生活", "en": "Consumer Lifestyle"},
+    "summary": {"zh": "（依名稱與參賽組別推估）提供消費生活相關的商品或服務。", "en": "(inferred from name and track) Offers consumer-lifestyle products or services."},
+    "overview": {"zh": "（依名稱與參賽組別推估）查爾斯有限公司參加創業大聯盟競賽的消費生活組，研判其聚焦消費、生活風格或日常用品相關領域；因網路公開資訊有限，無法確認具體產品與服務內容。", "en": "(inferred from name and track) As an entrant in the consumer-lifestyle track, Charles Co., Ltd. is presumed to focus on consumer, lifestyle or everyday-goods areas; limited public information prevents confirming its specific products or services."},
+    "verified": false,
+    "confidence": "low",
+    "links": []
+  },
+  {
+    "id": "A1367",
+    "industry": {"zh": "消費生活", "en": "Consumer Lifestyle"},
+    "summary": {"zh": "（依名稱與參賽組別推估）提供消費生活或交通相關的產品或服務。", "en": "(inferred from name and track) Offers consumer-lifestyle or mobility-related products or services."},
+    "overview": {"zh": "（依名稱與參賽組別推估）微靠右行有限公司參加創業大聯盟競賽的消費生活組，名稱「靠右行」帶有交通／出行意象，研判其可能涉及交通安全、出行或日常生活服務領域；因網路公開資訊有限，無法確認具體業務內容。", "en": "(inferred from name and track) As a consumer-lifestyle track entrant, Weikaoyouxing Co., Ltd. (its name evokes keep-right/road travel) is presumed to relate to traffic safety, mobility or everyday-life services; limited public information prevents confirming its actual business."},
+    "verified": false,
+    "confidence": "low",
+    "links": []
+  },
+  {
+    "id": "A0686",
+    "name_en": "Heryee Biotech Co., Ltd.",
+    "industry": {"zh": "農業生技", "en": "Agri Biotech"},
+    "summary": {"zh": "以生技創新切入智慧農業，提供農漁畜與飼品相關產品及顧問服務。", "en": "Applies biotech innovation to smart agriculture, offering agri/aqua/feed products and consulting."},
+    "overview": {"zh": "禾益生物科技成立於2021年，總部位於臺中，專注於生技創新與智慧農業應用。其營業範圍涵蓋生技服務、動物飼品批發、農林漁牧顧問與研發服務，並曾參與臺灣智慧農漁週展出。", "en": "Founded in 2021 and based in Taichung, Heryee Biotech focuses on biotech innovation and smart-agriculture applications. Its scope spans biotech services, animal-feed wholesale, agri/forestry/fishery/livestock consulting and R&D, and it has exhibited at Taiwan AgriWeek."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "禾益生物科技 - 台灣公司網", "url": "https://twincn.com/item.aspx?no=90489001"},
+      {"title": "臺灣智慧農漁週參展商", "url": "https://www.taiwanagriweek.com/en/exhibitor-detail/CU01061165/"}
+    ]
+  }
+]

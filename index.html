@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+  <!-- ==== Primary meta ==== -->
+  <title>創業綻放・創業大聯盟競賽 — 100 強入選企業與得獎名單</title>
+  <meta name="description" content="國發會「創業綻放計畫－創業大聯盟競賽」100 強入選企業、30 強決賽、總統獎與院長獎得主一覽。可依組別、企業／團隊、賽區、晉級階段篩選與搜尋的互動式名單（非官方整理）。" />
+  <link rel="canonical" href="https://tingwei161803.github.io/startup-asvda-org/" />
+  <meta name="theme-color" content="#0B0E14" />
+
+  <!-- ==== Open Graph ==== -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="創業綻放・創業大聯盟競賽 — 100 強入選企業與得獎名單" />
+  <meta property="og:description" content="近 3,000 組參賽，100 強、30 強決賽，9 組總統獎／院長獎得主。互動式入選名單（非官方整理）。" />
+  <meta property="og:url" content="https://tingwei161803.github.io/startup-asvda-org/" />
+  <meta property="og:image" content="https://tingwei161803.github.io/startup-asvda-org/assets/og-image.png" />
+  <meta property="og:locale" content="zh_TW" />
+
+  <!-- ==== Twitter ==== -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="創業綻放・創業大聯盟競賽 — 100 強入選企業與得獎名單" />
+  <meta name="twitter:description" content="近 3,000 組參賽，100 強、30 強決賽，9 組總統獎／院長獎得主。互動式入選名單（非官方整理）。" />
+  <meta name="twitter:image" content="https://tingwei161803.github.io/startup-asvda-org/assets/og-image.png" />
+
+  <!-- ==== JSON-LD structured data ==== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "創業綻放・創業大聯盟競賽 入選名單",
+    "description": "國發會「創業綻放計畫－創業大聯盟競賽」100 強、30 強決賽與總統獎／院長獎得主的互動式整理（非官方）。",
+    "url": "https://tingwei161803.github.io/startup-asvda-org/",
+    "inLanguage": ["zh-Hant", "en"]
+  }
+  </script>
+
+  <!-- ==== Fonts + icons (CDN, no local files) ==== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..600&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Noto+Serif+TC:wght@500;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,300,0,0&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <!-- ==== App bar ==== -->
+  <header class="appbar">
+    <div class="appbar__inner">
+      <a class="brand" href="#top">
+        <span class="material-symbols-rounded brand__logo">emoji_events</span>
+        <span class="brand__name" id="brandName">創業綻放・創業大聯盟競賽</span>
+      </a>
+
+      <div class="appbar__actions">
+        <button class="icon-btn" id="langToggle" type="button"
+                title="Language" aria-label="Toggle language / 切換語言">
+          <span class="material-symbols-rounded">translate</span>
+          <span class="icon-btn__txt" id="langLabel">中</span>
+        </button>
+
+        <button class="icon-btn" id="themeToggle" type="button"
+                title="Theme" aria-label="Toggle theme / 切換主題">
+          <span class="material-symbols-rounded" id="themeIcon">light_mode</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==== Sticky section nav (auto-generated anchor pills + scrollspy) ==== -->
+  <nav class="sectionnav" id="sectionNav" aria-label="Section navigation">
+    <div class="sectionnav__inner" id="sectionNavInner"></div>
+  </nav>
+
+  <span id="top"></span>
+
+  <!-- ==== Composite sections (rendered in order from SITE_SECTIONS) ==== -->
+  <main id="sections" aria-live="polite"></main>
+
+  <!-- ==== Detail dialog ==== -->
+  <dialog class="dialog" id="dialog" aria-labelledby="dialogTitle">
+    <div class="dialog__bar">
+      <span class="dialog__spacer"></span>
+      <button class="icon-btn" id="dialogClose" type="button" aria-label="Close / 關閉">
+        <span class="material-symbols-rounded">close</span>
+      </button>
+    </div>
+    <div class="dialog__body" id="dialogBody"></div>
+  </dialog>
+
+  <!-- ==== Footer ==== -->
+  <footer class="footer">
+    <p id="footerText" data-i18n="footer">非官方資料整理與視覺化 · 純靜態網站，無建置流程。</p>
+  </footer>
+
+  <!-- ==== Scripts (order matters: data first) ==== -->
+  <script src="data/data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
