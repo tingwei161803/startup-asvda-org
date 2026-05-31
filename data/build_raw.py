@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """build_raw.py — turn the three official PDF lists into one normalized JSON.
 
-Source (verified via `pdftotext -layout`, see tmp/*.pdf):
+Source (verified via `pdftotext -layout`, see sources/*.pdf):
   - 複賽入選 100 組  -> the master set, carries facets (組別 / 企業or團隊 / 六都or非六都)
   - 決賽入選 30 組   -> a subset, carries 參賽編號
   - 總統獎/院長獎 9 組 -> a subset, carries award + 地區(city) but NO 參賽編號

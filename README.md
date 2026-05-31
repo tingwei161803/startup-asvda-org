@@ -48,6 +48,7 @@ startup-asvda-org/
 │   ├── enrich-01..09.json  # 9 個研究批次的產業/簡介/來源（web 整理）
 │   ├── _assemble.py        # raw + enrich → data.js
 │   └── data.js             # 產生檔；window.SITE_* 全域資料
+├── sources/                # 官方名單原始 PDF（資料來源存證）
 ├── .nojekyll               # 讓 GitHub Pages 跳過 Jekyll
 └── README.md
 ```
