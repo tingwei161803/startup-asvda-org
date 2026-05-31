@@ -27,6 +27,7 @@
   --cat-consumer-life: #E3A56F;
   --cat-green-sustain: #6FD3A3;
 
+  --warn:              #E59A52;   /* caution amber (inferred / no-data) */
   --silver:            #C7CEDA;
 
   --hairline:          rgba(255,255,255,.09);
@@ -75,6 +76,7 @@
   --cat-consumer-life: #B05E16;
   --cat-green-sustain: #16774A;
 
+  --warn:              #B5701A;   /* caution amber (inferred / no-data) */
   --silver:            #8A8FA0;
 
   --hairline:          rgba(28,24,12,.12);
@@ -417,6 +419,20 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; letter-spac
 .stage--winner { color: var(--gold-bright); background: color-mix(in srgb, var(--gold) 16%, transparent); border-color: color-mix(in srgb, var(--gold) 40%, transparent); }
 .stage--final { color: var(--silver); background: color-mix(in srgb, var(--silver) 12%, transparent); border-color: color-mix(in srgb, var(--silver) 30%, transparent); }
 .stage--semi { color: var(--muted); background: var(--surface-3); border-color: var(--hairline); }
+
+/* ---- inferred / no-public-data treatment (honest: never show a guess as fact) ---- */
+.ccard__industry--nodata { display: inline-flex; align-items: center; gap: 4px; color: var(--faint); font-weight: 600; }
+.ccard__industry--nodata .material-symbols-rounded { font-size: 16px; }
+.ccard__summary--muted { color: var(--faint); font-style: italic; }
+.mchip--est { color: var(--warn); border-color: color-mix(in srgb, var(--warn) 36%, transparent); background: color-mix(in srgb, var(--warn) 12%, var(--surface)); }
+.d-warn {
+  display: flex; align-items: flex-start; gap: 10px; margin: 0 0 16px; padding: 12px 14px;
+  border-radius: var(--radius); font-size: .86rem; line-height: 1.55;
+  color: color-mix(in srgb, var(--warn) 88%, var(--on-surface));
+  background: color-mix(in srgb, var(--warn) 12%, var(--surface));
+  border: 1px solid color-mix(in srgb, var(--warn) 34%, transparent);
+}
+.d-warn .material-symbols-rounded { font-size: 19px; color: var(--warn); flex: 0 0 auto; margin-top: 1px; }
 
 /* ============================ CHARTS (donut) ============================= */
 .charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
