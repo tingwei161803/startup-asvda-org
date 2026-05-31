@@ -1,0 +1,12 @@
+# OS / editor cruft
+.DS_Store
+*.swp
+Thumbs.db
+
+# scratch / source working files (official source PDFs live here; cited in README)
+tmp/
+
+# python
+__pycache__/
+*.pyc
+.venv/
