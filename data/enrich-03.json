@@ -1,0 +1,115 @@
+[
+  {
+    "id": "A0076",
+    "name_en": "Vernus AI",
+    "industry": {"zh": "生醫科技", "en": "Biomedical / AI Pharma"},
+    "summary": {"zh": "以AI與量子計算優化製藥流程的生技新創。", "en": "Biotech startup using AI and quantum computing to optimize pharmaceutical manufacturing."},
+    "overview": {"zh": "睿泉生技（Vernus AI）結合生物計算與人工智慧技術，重新定義製藥產業未來。其旗艦平台ReAIX以AI與量子計算驅動，透過領域知識訓練大型語言模型，打造化學、生物與製劑領域的AI專家代理，解決製藥製造的關鍵難題。", "en": "Vernus AI combines biocomputation and artificial intelligence to reshape the future of pharmaceutical manufacturing. Its flagship ReAIX platform, powered by AI and quantum computing, trains domain-specialized large language models to create expert AI agents in chemistry, biology, and formulation, tackling the toughest challenges in drug production."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "睿泉生技 Vernus AI 官網", "url": "https://vernus.ai/en"},
+      {"title": "臺大藥學電子報", "url": "https://epaper.ntu.edu.tw/view.php?listid=91&id=35206"}
+    ]
+  },
+  {
+    "id": "A0653",
+    "name_en": "Viettron Technology Co., Ltd.",
+    "industry": {"zh": "電動載具", "en": "EV Powertrain"},
+    "summary": {"zh": "專注輕型電動載具電氣化系統研發與整合的科技公司。", "en": "Tech company specializing in electrification systems and integration for light electric vehicles."},
+    "overview": {"zh": "越創科技（Viettron）成立於2023年，專注輕型電動載具「四電系統」的研發與系統整合，提供燃油載具電氣化解決方案，涵蓋動力總成、電機、電池組、車輛控制單元與車載充電器。公司提供測試、驗證、系統整合與軟硬體開發的一站式服務，並與工研院合作開發碳化矽高功率馬達控制器，客戶遍及歐美與東南亞。", "en": "Founded in 2023, Viettron Technology focuses on R&D and system integration of four-electric powertrain systems for light electric vehicles, delivering electrification solutions covering powertrains, motors, battery packs, vehicle control units, and onboard chargers. It offers one-stop testing, validation, integration, and hardware/software development services, and has partnered with ITRI on silicon-carbide high-power motor controllers, serving clients across Europe, the Americas, and Southeast Asia."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "越創科技 Viettron 官網", "url": "https://www.viettron.com/tw"},
+      {"title": "Viettron LinkedIn", "url": "https://tw.linkedin.com/company/viettron-technology-co-ltd"}
+    ]
+  },
+  {
+    "id": "A0251",
+    "name_en": "Symmetry Info",
+    "industry": {"zh": "網路服務", "en": "Internet / HR Tech"},
+    "summary": {"zh": "以資訊對稱改善求職市場的網路平台公司。", "en": "Internet platform company improving the job market through information symmetry."},
+    "overview": {"zh": "對稱資訊（Symmetry Info）以「改善市場資訊不對稱」為使命，經營「面試趣」「小任務」「工作吧」等線上資訊服務。公司透過讓勞工分享真實職場資訊，提升雇主與求職者間的資訊透明度，藉資訊對稱翻轉求職市場。", "en": "Symmetry Info is dedicated to reducing market information asymmetry, operating online services such as Interview Wisdom, Small Tasks, and Work!. By enabling workers to share authentic workplace information, it improves transparency between employers and job seekers, transforming the job-seeking market through information symmetry."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "對稱資訊 Symmetry 官網", "url": "https://symmetry.tw/"},
+      {"title": "Symmetry Info LinkedIn", "url": "https://tw.linkedin.com/company/symmetry-info"}
+    ]
+  },
+  {
+    "id": "A0745",
+    "name_en": "Yun-X Tek Co., Ltd.",
+    "industry": {"zh": "智慧居家", "en": "Smart Home"},
+    "summary": {"zh": "提供智慧控制與居家自動化整合方案的科技公司。", "en": "Tech company providing intelligent control and smart home automation solutions."},
+    "overview": {"zh": "蘊域科技（Yun-X）成立於2021年，專精智慧控制系統，提供統一平台監控、管理與操控各項產品。公司為住宅與建築提供一站式的自動化與控制方案，整合照明、影音、窗簾、空調、網路、保全等系統，並設有規劃設計、系統整合、施工安裝與創新研發四大團隊。", "en": "Founded in 2021, Yun-X Tek specializes in intelligent control systems, offering unified-platform monitoring, management, and control across products. It delivers one-stop automation and control solutions for residences and buildings, integrating lighting, audio/video, curtains, HVAC, networking, and security, and is organized into planning/design, system integration, installation, and innovation R&D teams."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "蘊域科技 Yun-X 官網", "url": "https://yunx-tek.com/"},
+      {"title": "蘊域科技 104 企業頁", "url": "https://www.104.com.tw/company/1a2x6blr1t"}
+    ]
+  },
+  {
+    "id": "A0111",
+    "name_en": "Fortune Electric Value (EVALUE)",
+    "industry": {"zh": "電動車充電", "en": "EV Charging"},
+    "summary": {"zh": "經營EVALUE品牌電動車充電服務與充電站營運。", "en": "Operates the EVALUE brand of EV charging services and charging-station networks."},
+    "overview": {"zh": "華城電能科技成立於2021年，為華城電機集團旗下公司，承襲逾50年電力技術，經營EVALUE品牌智慧充電服務。其交流充電樁支援7kW與17.6kW功率，適用住宅、飯店、職場、景點與停車場。截至2025年，全台建置487座充電站、近1,600支交流慢充與約110座直流快充，服務近10萬名會員，並於2022年榮獲台灣精品獎。", "en": "Founded in 2021 as part of the Fortune Electric group with over 50 years of power-technology heritage, Fortune Electric Value operates the EVALUE smart EV-charging brand. Its AC chargers support 7kW and 17.6kW output for homes, hotels, workplaces, attractions, and parking lots. As of 2025 it has built 487 charging sites with nearly 1,600 AC slow chargers and about 110 DC fast chargers serving close to 100,000 members, and won a Taiwan Excellence Award in 2022."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "EVALUE 電動車充電官網", "url": "https://www.evalue.com.tw/"},
+      {"title": "台灣精品獎產品頁", "url": "https://www.taiwanexcellence.org/tw/award/product/1120463"}
+    ]
+  },
+  {
+    "id": "A0577",
+    "industry": {"zh": "食品科技", "en": "Food Technology"},
+    "summary": {"zh": "（依名稱與參賽組別推估）運用前瞻技術開發食品來源相關產品的新創。", "en": "(inferred from name and track) A startup applying frontier technology to food-source related products."},
+    "overview": {"zh": "（依名稱與參賽組別推估）食源科技有限公司列於前瞻科技組，推測為以科技創新切入食品源頭或食材供應領域的新創團隊，可能涉及食品科技、智慧食材或食品供應鏈相關技術。目前未能於公開網路找到該公司明確資料，以上為依公司名稱與參賽組別所做之推估。", "en": "(inferred from name and track) Listed under the frontier-technology track, Food Source Technology Co., Ltd. is likely a startup applying technological innovation to food sourcing or ingredient supply, potentially involving food tech, smart ingredients, or food supply-chain technology. No definitive public information was found online; the above is inferred from the company name and competition track."},
+    "verified": false,
+    "confidence": "low",
+    "links": []
+  },
+  {
+    "id": "A0635",
+    "name_en": "Rural Chees",
+    "industry": {"zh": "食品製造", "en": "Food / Beverage"},
+    "summary": {"zh": "以橄欖油風味豆腐乳為主打的宜蘭食品品牌。", "en": "A Yilan food brand best known for olive-oil-infused fermented tofu."},
+    "overview": {"zh": "豆豆方有限公司位於宜蘭羅東，旗下品牌「露酪」（Rural Chees）主打松露橄欖油風味豆腐乳，結合健康減鹽發酵豆腐乳與頂級初榨橄欖油，將傳統發酵食品升級為精緻伴手禮，並曾參與台北國際酒展等展會。", "en": "Based in Luodong, Yilan, Doudoufang operates the brand Rural Chees, known for truffle-and-olive-oil-flavored fermented tofu that pairs health-conscious reduced-salt fermented bean curd with premium extra-virgin olive oil, elevating a traditional fermented food into a refined gift product. It has exhibited at events such as the Taipei International Wine Expo."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "露酪 Rural Chees 官網", "url": "https://www.ruralchees.com/pages/4"},
+      {"title": "豆豆方有限公司 台灣公司網", "url": "https://www.twincn.com/item.aspx?no=90089194"}
+    ]
+  },
+  {
+    "id": "A0217",
+    "name_en": "EZAQUACULTURE",
+    "industry": {"zh": "智慧養殖", "en": "Smart Aquaculture"},
+    "summary": {"zh": "開發智慧自主養殖船的水產科技新創。", "en": "Aquaculture-tech startup developing smart autonomous farming vessels."},
+    "overview": {"zh": "豐漁水產養殖（EZAQUACULTURE）由曾任職漢翔航空的創辦人將航太導航技術帶回雲林創立，專注模組化智慧自主船，為養殖場提供精準投餌、水質監測與場域巡檢，特別適用於漁電共生案場。公司已售出逾百台自主載具，並於2025年APICTA亞太資通訊大獎獲銀牌，多次獲地方政府與部會肯定。", "en": "Founded by an entrepreneur who brought aerospace navigation technology from AIDC back to Yunlin, EZAQUACULTURE focuses on modular smart autonomous vessels that provide precise feeding, water-quality monitoring, and site inspection for fish farms, especially aquavoltaics sites. The company has sold over 100 autonomous vessels, won a silver medal at the 2025 APICTA awards, and earned repeated recognition from local governments and ministries."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "台灣地方創生基金會夥伴介紹", "url": "https://twrr.org.tw/zh-TW/partner/412"},
+      {"title": "FINDIT 新創平台", "url": "https://findit.org.tw/tw/Startup/SmhPS05HbWFVY25IMHptT3JLRzM4dz09/Basic"}
+    ]
+  },
+  {
+    "id": "A0880",
+    "name_en": "Formosagoose",
+    "industry": {"zh": "智慧畜牧", "en": "Smart Livestock"},
+    "summary": {"zh": "以封閉式智慧養殖與循環農業飼養鵝隻的創新農業公司。", "en": "Innovative agriculture company raising geese via closed-system smart farming and circular agriculture."},
+    "overview": {"zh": "向天歌創新農業（Formosagoose）位於雲林四湖，採用封閉式智慧養殖結合循環農業，提升鵝隻健康與肉質，並以養殖廢水復育鹽化土地，實現生態平衡並推動地方創生與青農發展。公司於2019年完成室外轉室內養殖，2020年產出可與傳統開放飼養媲美品質的首批鵝隻，孵化率達94%，並打造「鵝舖子」品牌販售鵝肉產品。", "en": "Based in Sihu, Yunlin, Formosagoose uses closed-system smart farming combined with circular agriculture to improve goose health and meat quality, while reclaiming saline soil with aquaculture wastewater to achieve ecological balance and drive rural revitalization and young-farmer development. It completed its outdoor-to-indoor transition in 2019, produced its first batch of geese matching traditional open-farming quality in 2020 with a 94% hatch rate, and created the Goose Shop brand for goose-meat products."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "向天歌 Formosagoose 官網", "url": "https://formosagoose.com/"},
+      {"title": "台灣地方創生基金會夥伴介紹", "url": "https://twrr.org.tw/zh-TW/partner/272"}
+    ]
+  }
+]

@@ -1,0 +1,149 @@
+[
+  {
+    "id": "A0023",
+    "name_en": "Hunger Co., Ltd.",
+    "industry": {"zh": "美業SaaS", "en": "Beauty-tech SaaS"},
+    "summary": {
+      "zh": "為美業商家打造整合LINE的線上預約、會員與POS管理系統。",
+      "en": "An all-in-one LINE-integrated booking, membership and POS platform for beauty businesses."
+    },
+    "overview": {
+      "zh": "夯客（hotcake）協助美髮、美甲美睫、健身瑜伽、醫美等美業商家，快速建立串接LINE官方帳號的專屬預約、會員與POS系統。平台已導入超過二千家商家，並切入精準再行銷與數據驅動營運等AI應用。",
+      "en": "Hunger (hotcake) helps salons, nail and lash studios, fitness and medical-aesthetic businesses quickly build dedicated booking, membership and POS systems tied to their LINE official accounts. The platform serves over two thousand merchants and is expanding into AI-driven precision remarketing and data-led operations."
+    },
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "夯客官方粉專", "url": "https://www.facebook.com/hotcakeapp/"},
+      {"title": "Cake 公司簡介", "url": "https://www.cake.me/companies/hotcake?locale=en"}
+    ]
+  },
+  {
+    "id": "A0586",
+    "name_en": "",
+    "industry": {"zh": "半導體EDA", "en": "Semiconductor EDA"},
+    "summary": {
+      "zh": "以生成式AI打造先進封裝EDA工具，模擬異質整合晶片系統。",
+      "en": "Builds a generative-AI advanced-packaging EDA tool that simulates heterogeneous-integration chip systems."
+    },
+    "overview": {
+      "zh": "煊程科技由成功大學工程科學系游濟華副教授團隊創立，針對半導體異質整合封裝開發「先進封裝EDA工具」。核心為「模擬＋生成式AI」整合運算系統，能自我生成資料庫，在不需巨量資料庫的情況下達到深度學習效果，快速產出符合需求的封裝解決方案。",
+      "en": "Hsuan-Cheng Technology was founded by a team led by Associate Professor Chi-Hua Yu of National Cheng Kung University's Department of Engineering Science. It develops an advanced-packaging EDA tool for semiconductor heterogeneous integration, built on an integrated simulation-plus-generative-AI engine that self-generates its database to reach deep-learning performance without a massive pre-built dataset, rapidly producing packaging solutions."
+    },
+    "verified": true,
+    "confidence": "medium",
+    "links": [
+      {"title": "TREE 新創 - 煊程科技", "url": "https://tree.meetbao.net/2025/07/%E7%85%8A%E7%A8%8B%E7%A7%91%E6%8A%80%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/"}
+    ]
+  },
+  {
+    "id": "A0135",
+    "industry": {"zh": "消費品牌", "en": "Consumer brands"},
+    "summary": {
+      "zh": "（依名稱與參賽組別推估）經營消費生活品牌的控股與整合事業。",
+      "en": "(inferred from name and track) A holding company building and integrating consumer-lifestyle brands."
+    },
+    "overview": {
+      "zh": "（依名稱與參賽組別推估）拓洋控股應為一家投入消費生活領域的控股型公司，可能整合零售、餐飲或生活消費品牌進行品牌經營與資源綜效。實際營業內容未能於公開來源確認。",
+      "en": "(inferred from name and track) Tuoyang Holdings is likely a holding company active in the consumer-lifestyle sector, possibly consolidating retail, food or lifestyle consumer brands for brand operation and synergy. Its actual scope could not be confirmed from public sources."
+    },
+    "verified": false,
+    "confidence": "low",
+    "links": []
+  },
+  {
+    "id": "A0722",
+    "industry": {"zh": "管理顧問", "en": "Management consulting"},
+    "summary": {
+      "zh": "（依名稱與參賽組別推估）提供消費生活領域的管理與品牌行銷顧問服務。",
+      "en": "(inferred from name and track) Provides management and brand-marketing consulting for the consumer-lifestyle sector."
+    },
+    "overview": {
+      "zh": "（依名稱與參賽組別推估）黑柴管理顧問應為一家管理顧問公司，可能聚焦於消費生活產業的品牌策略、行銷規劃與營運輔導等顧問服務。實際營業內容未能於公開來源確認。",
+      "en": "(inferred from name and track) Hei-Chai Management Consulting appears to be a consulting firm likely focused on brand strategy, marketing planning and operational advisory for consumer-lifestyle businesses. Its actual scope could not be confirmed from public sources."
+    },
+    "verified": false,
+    "confidence": "low",
+    "links": []
+  },
+  {
+    "id": "A0059",
+    "name_en": "Ancillary Power Co., Ltd.",
+    "industry": {"zh": "能源科技", "en": "Energy-tech"},
+    "summary": {
+      "zh": "台灣首家民營合格交易者，整合分散式能源營運虛擬電廠。",
+      "en": "Taiwan's first private qualified power trader, operating a virtual power plant from distributed energy resources."
+    },
+    "overview": {
+      "zh": "安瑟樂威是台灣首家民營合格交易者，整合需量反應、儲能與再生能源等分散式資源，建構虛擬電廠參與電力輔助服務市場與綠電交易。提供一站式能源規劃、24小時調度與系統整合服務，協助企業最大化能源資產收益並強化電網韌性。",
+      "en": "Ancillary Power is Taiwan's first private qualified power trader. It aggregates demand response, energy storage and renewables into a virtual power plant that participates in the ancillary-services market and green-power trading. The company offers one-stop energy planning, 24/7 dispatch and system integration to help enterprises maximize returns on energy assets and strengthen grid resilience."
+    },
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "安瑟樂威官方網站", "url": "https://www.ancillarypower.com/"}
+    ]
+  },
+  {
+    "id": "A0441",
+    "industry": {"zh": "數位科技", "en": "Digital tech"},
+    "summary": {
+      "zh": "（依名稱與參賽組別推估）從事數位發展與軟體服務的前瞻科技公司。",
+      "en": "(inferred from name and track) A frontier-tech company engaged in digital development and software services."
+    },
+    "overview": {
+      "zh": "（依名稱與參賽組別推估）夆泩數位發展應為一家投入數位發展的科技公司，可能提供軟體開發、數位平台或數位轉型相關的技術服務。實際營業內容未能於公開來源確認。",
+      "en": "(inferred from name and track) Feng-Sheng Digital Development appears to be a technology company focused on digital development, likely offering software development, digital platforms or digital-transformation services. Its actual scope could not be confirmed from public sources."
+    },
+    "verified": false,
+    "confidence": "low",
+    "links": []
+  },
+  {
+    "id": "A0431",
+    "industry": {"zh": "消費生活", "en": "Consumer lifestyle"},
+    "summary": {
+      "zh": "（依名稱與參賽組別推估）經營消費生活相關產品或服務的新創。",
+      "en": "(inferred from name and track) A startup offering consumer-lifestyle products or services."
+    },
+    "overview": {
+      "zh": "（依名稱與參賽組別推估）普凱斯應為一家消費生活領域的新創公司，可能涉及消費性產品、服務或品牌經營。實際營業內容未能於公開來源確認。",
+      "en": "(inferred from name and track) Pukaisi appears to be a startup in the consumer-lifestyle sector, possibly involving consumer products, services or brand operation. Its actual scope could not be confirmed from public sources."
+    },
+    "verified": false,
+    "confidence": "low",
+    "links": []
+  },
+  {
+    "id": "A1491",
+    "industry": {"zh": "食品電商", "en": "Food e-commerce"},
+    "summary": {
+      "zh": "經營線上食品商店，販售節慶禮盒等飲食消費產品。",
+      "en": "Runs an online food shop selling festive gift sets and food-and-beverage products."
+    },
+    "overview": {
+      "zh": "童心好食有限公司位於嘉義縣太保市，以「童心好食館」品牌經營線上食品電商，販售節慶禮盒（如端午節套組）等飲食消費產品，並建置購物官網與會員行動App。公司主打誠信經營，提供顧客優質商品與服務。",
+      "en": "Located in Taibao, Chiayi County, Tong-Xin Hao-Shi runs the \"Tong-Xin Hao-Shi\" online food store, selling festive gift sets (such as Dragon Boat Festival bundles) and food products through its e-commerce site and member mobile app. The company emphasizes honest operation and quality products and service."
+    },
+    "verified": true,
+    "confidence": "medium",
+    "links": [
+      {"title": "童心好食館 官網", "url": "https://www.tsaumama.com.tw/"}
+    ]
+  },
+  {
+    "id": "A0702",
+    "industry": {"zh": "綠能科技", "en": "Green-energy tech"},
+    "summary": {
+      "zh": "（依名稱與參賽組別推估）發展智慧停車或電動車充電等綠能移動科技。",
+      "en": "(inferred from name and track) Develops green mobility tech such as smart parking or EV charging."
+    },
+    "overview": {
+      "zh": "（依名稱與參賽組別推估）壹泊科技參賽於綠色永續組，名稱中的「泊」字推測其業務可能與智慧停車、電動車充電或綠能移動相關服務有關。實際營業內容未能於公開來源確認。",
+      "en": "(inferred from name and track) Competing in the green-sustainability track and given the character \"泊\" (to park) in its name, OnePark Technology's business is likely related to smart parking, EV charging or green mobility services. Its actual scope could not be confirmed from public sources."
+    },
+    "verified": false,
+    "confidence": "low",
+    "links": []
+  }
+]

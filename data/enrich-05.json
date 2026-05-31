@@ -1,0 +1,112 @@
+[
+  {
+    "id": "A0204",
+    "name_en": "Xiaofupo Consultant Co., Ltd.",
+    "industry": {"zh": "財務顧問", "en": "Fintech Advisory"},
+    "summary": {"zh": "（依名稱與參賽組別推估）提供理財與財富管理相關的顧問服務。", "en": "(inferred from name and track) Provides wealth-management and financial advisory services."},
+    "overview": {"zh": "（依名稱與參賽組別推估）小富婆顧問為設於臺北市信義區的顧問有限公司（統編96673243，負責人楊皓博，資本額10萬元），已查得公司登記資料但未能找到其產品或服務說明。依「小富婆」名稱與前瞻科技組推測，可能切入理財、財富管理或財商教育等金融科技顧問方向。", "en": "(inferred from name and track) Xiaofupo Consultant is a consulting company registered in Xinyi District, Taipei (business no. 96673243, representative Yang Haobo, capital NT$100,000). Company registration was found, but no product or service description is available online; given the name and the frontier-tech track, it likely operates in fintech-style wealth/finance advisory or financial-literacy services."},
+    "verified": false,
+    "confidence": "low",
+    "links": [
+      {"title": "小富婆顧問有限公司 - 台灣公司網", "url": "https://www.twincn.com/item.aspx?no=96673243"}
+    ]
+  },
+  {
+    "id": "A0972",
+    "name_en": "Astron Medtech Co., Ltd.",
+    "industry": {"zh": "醫療器材", "en": "Medical Devices"},
+    "summary": {"zh": "開發骨科微創縫合手術系統，縮短手術時間並降低術後併發症。", "en": "Develops a minimally invasive orthopedic suturing system that shortens surgery time and reduces complications."},
+    "overview": {"zh": "艾斯創生醫成立於2021年，由臨床骨科醫師與生醫工程師共同創立，聚焦骨科精準醫療。其TendMIN微創手術系統用於骨科軟組織縫合，可將傷口縮小至約1公分、縮短手術時間並降低術後併發症與醫療成本，協助病患加速術後恢復。", "en": "Founded in 2021 by clinical orthopedic surgeons and biomedical engineers, Astron Medtech focuses on orthopedic precision medicine. Its TendMIN minimally invasive surgical system performs orthopedic soft-tissue suturing through wounds as small as about 1 cm, shortening operating time and reducing post-operative complications and costs while speeding patient recovery."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "FINDIT 新創資料庫 - 艾斯創生醫", "url": "https://findit.org.tw/tw/Startup/ZlBUcUp2VExlU0lJaU4wdXd3L3BTdz09/Basic"},
+      {"title": "環球生技月刊 - 艾斯創生醫", "url": "https://news.gbimonthly.com/tw/invest/show2.php?num=1155"}
+    ]
+  },
+  {
+    "id": "A0398",
+    "name_en": "Enki Biomedical Co., Ltd.",
+    "industry": {"zh": "生醫保健", "en": "Biomedical"},
+    "summary": {"zh": "以創新抗體技術開發特異性免疫球蛋白等保健與醫療產品。", "en": "Develops health and medical products such as specific immunoglobulin using innovative antibody technology."},
+    "overview": {"zh": "恩基生醫成立於2023年，登記於桃園市，致力以創新抗體技術投入人類健康與醫療科學。其推出含NEXTIGY®特異性免疫球蛋白Y（IgY）專利技術的「捍幽適」等保健產品，期望成為具全球影響力的生物科技公司。", "en": "Founded in 2023 and registered in Taoyuan, Enki Biomedical applies innovative antibody technology to human health and medical science. It markets health products such as the Hanyu Shi line featuring its patented NEXTIGY specific immunoglobulin Y (IgY) technology, aiming to become a globally influential biotechnology company."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "恩基生醫官網", "url": "https://www.enkibio.com.tw/"},
+      {"title": "恩基生醫 - 台灣公司網", "url": "https://twincn.com/item.aspx?no=93783366"}
+    ]
+  },
+  {
+    "id": "A1043",
+    "name_en": "LOOP (Lu Peng Technology Co., Ltd.)",
+    "industry": {"zh": "共享移動", "en": "Car Sharing"},
+    "summary": {"zh": "經營「LOOP」共享汽車平台，媒合車主與用車者實現汽車共享。", "en": "Operates the LOOP car-sharing platform connecting car owners with renters."},
+    "overview": {"zh": "路朋科技成立於2024年，登記於臺北市內湖區，以「LOOP 共享汽車」為品牌打造汽車共享平台。透過智慧平台媒合閒置車輛的車主與用車需求者，讓車主活化閒置車輛收益、用車者快速找到合適車輛，推動共享移動的經濟模式。", "en": "Founded in 2024 and based in Neihu, Taipei, Lu Peng Technology runs the LOOP car-sharing platform. Its intelligent platform matches owners of idle vehicles with renters, letting owners monetize unused cars while renters quickly find suitable vehicles, advancing a shared-mobility economic model."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "LOOP 共享汽車官網", "url": "https://www.loopmaas.com/about"},
+      {"title": "路朋科技 - 台灣公司網", "url": "https://www.twincn.com/96777964"}
+    ]
+  },
+  {
+    "id": "A0451",
+    "name_en": "FunCrowd Inc.",
+    "industry": {"zh": "共享服務", "en": "Sharing Service"},
+    "summary": {"zh": "推出「raingo 共享傘」，提供甲地租乙地還的共享雨傘租借服務。", "en": "Runs the raingo shared-umbrella service with rent-here-return-there borrowing."},
+    "overview": {"zh": "樂眾科技（品牌raingo、FunCrowd）成立於2020年，由區塊鏈/Web3背景的年輕團隊創立。2023年推出「raingo 共享傘」並與台北捷運合作，提供便利的甲地租乙地還共享雨傘租借服務，主打友善人性化、減少城市資源浪費的共享生活模式。", "en": "Founded in 2020 by a young team with a blockchain/Web3 background, FunCrowd (brand raingo) launched the raingo shared-umbrella service in 2023 in partnership with Taipei Metro. It offers convenient rent-here-return-there umbrella sharing, promoting a friendly, waste-reducing sharing lifestyle in cities."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "raingo 共享傘 - 關於樂眾", "url": "https://www.raingo.com.tw/funcrowd"},
+      {"title": "樂眾科技 - 台灣公司網", "url": "https://twincn.com/item.aspx?no=83074560"}
+    ]
+  },
+  {
+    "id": "A0727",
+    "name_en": "Morale AI Co., Ltd.",
+    "industry": {"zh": "智慧製造AI", "en": "Manufacturing AI"},
+    "summary": {"zh": "提供智慧製造與ESG的AI解決方案，協助製造業知識傳承與數據治理。", "en": "Provides AI solutions for smart manufacturing and ESG, enabling knowledge transfer and data governance."},
+    "overview": {"zh": "摩絡人工智慧（Morale AI）成立於2023年，源自清華大學團隊，進駐新竹科學園區。提供智慧製造AI與ESG解決方案，運用機器學習與大型語言模型解決製造現場痛點，並以LLM協助技術經驗傳承與知識管理，另建置數據治理與能碳追蹤的BI平台。", "en": "Founded in 2023 and spun out from National Tsing Hua University, Morale AI is based in the Hsinchu Science Park. It delivers smart-manufacturing and ESG AI solutions, using machine learning and large language models to solve shop-floor pain points, support experience and knowledge transfer, and provide data-governance and energy/carbon-tracking BI platforms."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "Morale AI 官網", "url": "https://moraleai.com/"},
+      {"title": "StarFab Accelerator - 摩絡人工智慧", "url": "https://zh.starfabx.com/moraleai/"}
+    ]
+  },
+  {
+    "id": "A0815",
+    "name_en": "",
+    "industry": {"zh": "海洋食品", "en": "Marine Food"},
+    "summary": {"zh": "（依名稱與參賽組別推估）從事海洋水產養殖或水產食品相關業務。", "en": "(inferred from name and track) Likely engaged in marine aquaculture or seafood-product business."},
+    "overview": {"zh": "（依名稱與參賽組別推估）未能在公開網路上明確查得森川海洋股份有限公司的官方資料或產品說明。依「森川海洋」名稱與消費生活組推測，公司可能從事海洋水產養殖、水產加工或海鮮食品品牌等與海洋資源相關的消費生活業務。", "en": "(inferred from name and track) No clear official information or product description for Sen Chuan Marine Co., Ltd. could be confirmed online. Based on the name and the consumer-lifestyle track, the company likely operates in marine aquaculture, seafood processing, or a seafood food brand within ocean-related consumer-lifestyle business."},
+    "verified": false,
+    "confidence": "low",
+    "links": []
+  },
+  {
+    "id": "A0337",
+    "name_en": "",
+    "industry": {"zh": "永續設計", "en": "Sustainable Design"},
+    "summary": {"zh": "（依名稱與參賽組別推估）從事綠色永續相關的創新設計或服務。", "en": "(inferred from name and track) Likely engaged in green/sustainability-oriented innovation or design."},
+    "overview": {"zh": "（依名稱與參賽組別推估）未能在公開網路上查得默創有限公司的官方資料或具體業務說明（與另一家設計公司「默聲創意」名稱相近但非同一家）。依「默創」名稱與綠色永續組推測，公司可能投入綠色永續導向的創新產品、設計或循環經濟相關服務。", "en": "(inferred from name and track) No official information or specific business description for Mo Chuang Co., Ltd. could be found online (it is distinct from a similarly named design firm, Morcept Design). Based on the name and the green-sustainability track, the company likely works on sustainability-oriented innovation, design, or circular-economy services."},
+    "verified": false,
+    "confidence": "low",
+    "links": []
+  },
+  {
+    "id": "A1064",
+    "name_en": "LINGBO Co., Ltd.",
+    "industry": {"zh": "能源物聯網", "en": "Energy IoT"},
+    "summary": {"zh": "以AIoT技術開發瓦斯智慧管理與居家存量偵測，助瓦斯業數位轉型。", "en": "Builds AIoT gas-management and home-tank sensing systems to digitalize the LPG industry."},
+    "overview": {"zh": "凌波成立於2020年，以自研感測器與「城市能源網絡」概念切入能源管理。提供瓦斯業者數位轉型方案，包含瓦斯智慧管理平台、液化石油氣容器條碼系統與瓦斯IoT雲端偵測裝置，透過居家存量偵測達成計畫運送，節省人力並提升配送效率，曾獲第20屆Mobileheroes通訊大賽冠軍。", "en": "Founded in 2020, LINGBO uses self-developed sensors and a \"city energy network\" concept for energy management. It offers digital-transformation tools for the gas industry, including a smart gas-management platform, an LPG cylinder barcode system, and cloud IoT detection devices; home tank-level sensing enables planned delivery routes that cut labor and raise efficiency. It won the 20th Mobileheroes competition."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "創業亮點 - 凌波股份有限公司 - 新創圓夢網", "url": "https://startup.sme.gov.tw/home/modules/highlight/detail/?sId=599"},
+      {"title": "凌波股份有限公司 - DIGITIMES 新創團隊", "url": "https://www.digitimes.com.tw/iot/startupteam_detail.asp?sid=S2021100002"}
+    ]
+  }
+]

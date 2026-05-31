@@ -1,0 +1,115 @@
+[
+  {
+    "id": "A0131",
+    "name_en": "AHEAD Intelligence Ltd.",
+    "industry": {"zh": "生醫AI", "en": "Medical AI"},
+    "summary": {"zh": "以AI輔助流式細胞數據分析，加速血癌等疾病精準診斷。", "en": "AI-assisted flow cytometry analysis for faster, precise cancer diagnosis."},
+    "overview": {"zh": "先勁智能（原先鋒智能）開發AI驅動的醫療診斷平台Cyto-Copilot，運用人工智慧分析流式細胞儀數據，協助臨床醫師快速、客觀解讀檢測結果。其技術可將血癌等疾病的分析流程由約30分鐘縮短至數秒，並已與秀傳醫院、吉泰藥品等合作推動商轉。", "en": "AHEAD Intelligence (formerly AHEAD Medicine) develops Cyto-Copilot, an AI-driven diagnostic platform that analyzes flow cytometry data to help clinicians interpret results quickly and objectively. Its technology shortens the analysis workflow for diseases such as blood cancer from about 30 minutes to seconds, and it has partnered with hospitals and pharma firms to commercialize the solution."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "工商時報", "url": "https://www.ctee.com.tw/news/20250429701410-430504"},
+      {"title": "Meet創業小聚", "url": "https://meet.bnext.com.tw/articles/view/47758"}
+    ]
+  },
+  {
+    "id": "A0855",
+    "name_en": "ICEshell",
+    "industry": {"zh": "資安科技", "en": "Cybersecurity"},
+    "summary": {"zh": "自主研發App安全防護技術，提供逆向工程與滲透測試防護。", "en": "Homegrown app security protection with reverse-engineering and pen-test defense."},
+    "overview": {"zh": "艾斯冰殼由Fourdesire、DEVCORE及多位資安專家合資成立，專注於軟體逆向工程、App滲透測試與App安全防護技術。旗下打造台灣自主研發的App安全防護產品ICEshell，為遊戲、金融及政府單位等提供更安全可靠的應用程式防護服務。", "en": "ICEshell (Aisi Bingke) was jointly founded by Fourdesire, DEVCORE and several security experts, focusing on software reverse engineering, app penetration testing and app protection. Its flagship ICEshell product is a Taiwan-developed app-security solution serving gaming, finance and government clients with stronger application protection."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "ICEshell 官網", "url": "https://iceshell.co/"},
+      {"title": "CYBERSEC 2025 臺灣資安大會", "url": "https://cybersec.ithome.com.tw/2025/exhibition-page/2856"}
+    ]
+  },
+  {
+    "id": "A0359",
+    "name_en": null,
+    "industry": {"zh": "驗屋檢測", "en": "Home Inspection"},
+    "summary": {"zh": "提供新成屋、預售屋與中古屋的專業驗屋與技術檢測服務。", "en": "Professional home inspection for new, pre-sale and pre-owned properties."},
+    "overview": {"zh": "成家檢驗科技（品牌「成家驗屋」）位於桃園，是專注於房屋交屋檢測的技術服務公司，營業範圍涵蓋技術檢測與分析、環境顧問、空調系統與室內裝潢工程等。提供公設點交、新成屋、預售屋及中古屋驗屋服務，協助買方在交屋前找出不易察覺的瑕疵與問題。", "en": "Chengjia Inspection Technology (brand: Chengjia House Inspection) is a Taoyuan-based technical-services firm specializing in property handover inspection, with scope covering technical testing and analysis, environmental consulting, HVAC and interior fit-out. It offers public-facility, new-build, pre-sale and pre-owned home inspections to help buyers uncover hidden defects before handover."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "台灣公司網", "url": "https://twincn.com/item.aspx?no=83309433"},
+      {"title": "Mobile01 驗屋分享", "url": "https://www.mobile01.com/topicdetail.php?f=400&t=6544275"}
+    ]
+  },
+  {
+    "id": "A0787",
+    "name_en": "Johnny Yan pâtissier",
+    "industry": {"zh": "甜點烘焙", "en": "Pastry & Dessert"},
+    "summary": {"zh": "結合法式甜點工藝的手作龍鬚糖品牌，主打多元口味伴手禮。", "en": "Artisan dragon-beard candy fusing French pastry craft into gift desserts."},
+    "overview": {"zh": "強尼甜點工藝位於台南柳營，由主廚結合十多年法式甜點經驗與傳統龍鬚糖技藝，重新詮釋這項近乎失傳的古法甜點。產品以手工製作、溫控技術打造，提供日本柚子、抹茶、巧克力榛果、伯爵茶、草莓等多種口味及禮盒，成為熱門伴手禮品牌。", "en": "Johnny Yan pâtissier, based in Liuying, Tainan, reinvents the near-lost art of dragon-beard candy by blending the founder's decade of French pastry experience with traditional craftsmanship. Each piece is handmade with proprietary temperature control, offered in flavors such as yuzu, matcha, chocolate-hazelnut, Earl Grey and strawberry, and packaged as popular gift sets."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "強尼甜點工藝 官網", "url": "https://www.johnnyyan-patissier.com/"},
+      {"title": "Instagram", "url": "https://www.instagram.com/johnnyyanpatissier/"}
+    ]
+  },
+  {
+    "id": "A0330",
+    "name_en": "CarbonClean Energy Co., Ltd.",
+    "industry": {"zh": "碳轉化", "en": "Carbon Conversion"},
+    "summary": {"zh": "以電化學碳轉化技術將二氧化碳轉為高價值化學品，助產業減碳。", "en": "Electrochemical carbon conversion turning CO2 into valuable chemicals for decarbonization."},
+    "overview": {"zh": "科淨能源位於高雄，以碳轉化核心技術透過電化學方式將二氧化碳轉換為一氧化碳、乙烯、乙醇、氫氣等高經濟價值產品，作為化學品與民生用品原料。其設備採低耗能、模組化可擴充設計，並提供碳轉化技術顧問、碳盤查與永續報告等服務，協助產業達成淨零目標。", "en": "CarbonClean Energy, based in Kaohsiung, uses core carbon-conversion technology to electrochemically transform CO2 into high-value products such as carbon monoxide, ethylene, ethanol and hydrogen for use as chemical and consumer-goods feedstock. Its equipment is energy-efficient and modular-scalable, and it also offers carbon-conversion consulting, carbon accounting and sustainability reporting to help industries reach net zero."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "CarbonClean Energy 官網", "url": "https://carbonclean-energy.com/index-en.html"},
+      {"title": "DIGITIMES", "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000717378_2UD2RAPJ85RG0S7W8GKG1"}
+    ]
+  },
+  {
+    "id": "A0622",
+    "name_en": null,
+    "industry": {"zh": "生醫晶片", "en": "Biomedical Chip"},
+    "summary": {"zh": "開發腫瘤微環境晶片平台，革新癌症藥物前臨床評估流程。", "en": "Tumor-microenvironment chip platform reinventing preclinical cancer drug testing."},
+    "overview": {"zh": "蔚流生物科技由穆宣佑博士創辦，開發名為「MedSelect」的腫瘤微環境晶片平台，於體外精準重建腫瘤微環境，可即時觀測腫瘤、免疫細胞與藥物的交互作用，協助藥廠在臨床前階段提升藥效預測與免疫反應分析的準確性。提供設備導入與服務兩種模式，以更精準、人道的方式取代傳統動物實驗。", "en": "WeiLiu Biotech, founded by Dr. Hsuan-Yu Mu, develops the MedSelect tumor-microenvironment chip platform that recreates the tumor microenvironment in vitro to observe interactions among tumors, immune cells and drugs in real time, helping pharma companies improve efficacy prediction and immune-response analysis in the preclinical stage. It offers both equipment-integration and service models as a more precise, humane alternative to traditional animal testing."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "環球生技月刊", "url": "https://news.gbimonthly.com/tw/article/show.php?num=77977"}
+    ]
+  },
+  {
+    "id": "A0799",
+    "name_en": null,
+    "industry": {"zh": "消費科技", "en": "Consumer Tech"},
+    "summary": {"zh": "（依名稱與參賽組別推估）花蓮在地的消費生活科技新創。", "en": "(inferred from name and track) A Hualien-based consumer lifestyle tech startup."},
+    "overview": {"zh": "（依名稱與參賽組別推估）玫瑰花瓣科技有限公司登記於花蓮縣鳳林鎮，資本額新台幣50萬元，代表人為莊彥山。公開資料僅見公司登記資訊，未見明確產品或服務說明；依其名稱與參賽組別推測，可能為消費生活相關的科技產品或服務新創。", "en": "(inferred from name and track) Rose Petal Technology Co., Ltd. is registered in Fenglin Township, Hualien County, with capital of NT$500,000 and representative Zhuang Yanshan. Only company-registration data is publicly available, with no clear product or service description; based on its name and competition track, it is likely a consumer-lifestyle-oriented technology product or service startup."},
+    "verified": false,
+    "confidence": "low",
+    "links": []
+  },
+  {
+    "id": "A0259",
+    "name_en": "LanCore Intelligent",
+    "industry": {"zh": "智慧養殖", "en": "Smart Aquaculture"},
+    "summary": {"zh": "開發智能節能增氧機與雲端養殖系統，推動友善低碳水產養殖。", "en": "Smart energy-saving aerators and cloud aquaculture systems for low-carbon farming."},
+    "overview": {"zh": "蘭芯智能位於新竹，與蘭芯系統同屬「蘭芯（LanCore）」品牌體系，專注於智慧節能軟硬體解決方案。核心產品為採用直流無刷變頻馬達的智能增氧機，搭配IoT雲端與手機App可遠端啟停與調速，相較傳統交流馬達約可省電30至40%，協助水產養殖業者邁向高效、現代化的友善低碳養殖。", "en": "LanCore Intelligent, based in Hsinchu and part of the LanCore brand family alongside LanCore System, focuses on smart energy-saving hardware-software solutions. Its core product is an intelligent aerator using DC brushless variable-frequency motors, paired with an IoT cloud and mobile app for remote start/stop and speed control, saving roughly 30-40% energy versus conventional AC motors and helping aquaculture operators move toward efficient, modern, low-carbon farming."},
+    "verified": true,
+    "confidence": "medium",
+    "links": [
+      {"title": "蘭芯系統官網", "url": "https://lancore-sys.com/"},
+      {"title": "臺灣智慧農漁週", "url": "https://www.taiwanagriweek.com/en/exhibitor-detail/CU01022130/"}
+    ]
+  },
+  {
+    "id": "A1036",
+    "name_en": null,
+    "industry": {"zh": "水產養殖", "en": "Aquaculture"},
+    "summary": {"zh": "彰化青農返鄉經營，養出台灣首家有機認證文蛤與黑蜆。", "en": "Young farmers raising Taiwan's first organic-certified clams and black clams."},
+    "overview": {"zh": "打寶蛤水產位於彰化縣芳苑鄉漢寶村，由家族第三代青農姊弟返鄉接手逾60年的文蛤養殖事業。採用不用化學藥物的生態混養方式，取得台灣第一個有機文蛤與黑蜆認證；文蛤經電動篩選、人工篩選與微分子臭氧處理後，以真空包裝與低溫冷鏈出貨，主打可常溫保存、一沖即食的有機水產。", "en": "Hanbao Clam (Dabaoge Aquatic) is based in Hanbao Village, Fangyuan Township, Changhua, where third-generation young sibling farmers took over a family clam-farming business spanning over 60 years. Using chemical-free ecological polyculture, it earned Taiwan's first organic certification for hard clams and black clams; the clams are graded by machine and manual sorting, treated with micro-molecule ozone, and shipped vacuum-packed via cold chain as room-temperature-storable, rinse-and-eat organic seafood."},
+    "verified": true,
+    "confidence": "high",
+    "links": [
+      {"title": "打寶蛤 官網", "url": "https://hanbaoclam.com/"},
+      {"title": "上下游新聞", "url": "https://www.newsmarket.com.tw/blog/196262/"}
+    ]
+  }
+]
