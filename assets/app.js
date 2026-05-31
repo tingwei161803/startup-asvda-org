@@ -64,6 +64,7 @@
       all: "All",
       axisCategory: "Track", axisStage: "Stage", axisType: "Type", axisRegion: "Region",
       axisIndustry: "Industry",
+      analysis: "Analysis",
       verified: "Verified", inferred: "Estimated", sources: "Sources",
       noData: "No public data", unverified: "Unverified",
       noDataDesc: "No reliable public information found — open for a name-based estimate.",
@@ -79,6 +80,7 @@
       all: "全部",
       axisCategory: "組別", axisStage: "階段", axisType: "性質", axisRegion: "賽區",
       axisIndustry: "產業",
+      analysis: "深度分析",
       verified: "已查證", inferred: "推估", sources: "來源",
       noData: "查無公開資料", unverified: "未查證",
       noDataDesc: "目前查無公開可靠資料，點開可查看依名稱與組別所做的推估。",
@@ -506,6 +508,7 @@
     var titleStr = t(META.title), subStr = t(META.subtitle);
     document.title = subStr ? titleStr + " · " + subStr : titleStr;
     var brand = $("brandName"); if (brand) brand.textContent = titleStr;
+    var al = $("analysisLabel"); if (al) al.textContent = ui("analysis");
     var foot = $("footerText"); if (foot) foot.textContent = ui("footer");
     var nav = $("sectionNav"); if (nav) nav.setAttribute("aria-label", ui("menu"));
     var dc = $("dialogClose"); if (dc) dc.setAttribute("aria-label", ui("close"));

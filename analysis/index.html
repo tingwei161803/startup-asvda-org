@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+  <title>創業大聯盟 100 強・深度分析 — VC × 顧問多視角</title>
+  <meta name="description" content="以創投、策略顧問、技術、市場、國家戰略、風險等多重視角，分析國發會「創業大聯盟競賽」100 強入選企業的厲害之處與投資潛力。多代理人分析、誠實標記、附完整報告。" />
+  <link rel="canonical" href="https://tingwei161803.github.io/startup-asvda-org/analysis/" />
+  <meta name="theme-color" content="#0B0E14" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="創業大聯盟 100 強・深度分析 — VC × 顧問多視角" />
+  <meta property="og:description" content="從創投、顧問、技術、市場、國策、風險與各產業視角，剖析 100 強新創的厲害之處。" />
+  <meta property="og:url" content="https://tingwei161803.github.io/startup-asvda-org/analysis/" />
+  <meta property="og:image" content="https://tingwei161803.github.io/startup-asvda-org/assets/og-image.png" />
+  <meta property="og:locale" content="zh_TW" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..600&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Noto+Serif+TC:wght@500;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,300,0,0&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="../assets/styles.css" />
+  <link rel="stylesheet" href="assets/analysis.css" />
+</head>
+<body>
+  <header class="appbar">
+    <div class="appbar__inner">
+      <a class="brand" href="../">
+        <span class="material-symbols-rounded brand__logo">insights</span>
+        <span class="brand__name" id="brandName">100 強・深度分析</span>
+      </a>
+      <div class="appbar__actions">
+        <a class="icon-btn appbar__back" id="backLink" href="../">
+          <span class="material-symbols-rounded">arrow_back</span>
+          <span class="icon-btn__txt" id="backLabel">入選名錄</span>
+        </a>
+        <button class="icon-btn" id="langToggle" type="button" title="Language" aria-label="Toggle language / 切換語言">
+          <span class="material-symbols-rounded">translate</span>
+          <span class="icon-btn__txt" id="langLabel">中</span>
+        </button>
+        <button class="icon-btn" id="themeToggle" type="button" title="Theme" aria-label="Toggle theme / 切換主題">
+          <span class="material-symbols-rounded" id="themeIcon">light_mode</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="sectionnav" id="sectionNav" aria-label="Section navigation">
+    <div class="sectionnav__inner" id="sectionNavInner"></div>
+  </nav>
+
+  <span id="top"></span>
+  <main id="sections" aria-live="polite"></main>
+
+  <dialog class="dialog" id="dialog" aria-labelledby="dialogTitle">
+    <div class="dialog__bar">
+      <span class="dialog__spacer"></span>
+      <button class="icon-btn" id="dialogClose" type="button" aria-label="Close / 關閉">
+        <span class="material-symbols-rounded">close</span>
+      </button>
+    </div>
+    <div class="dialog__body" id="dialogBody"></div>
+  </dialog>
+
+  <footer class="footer">
+    <p id="footerText" data-i18n="footer">非官方分析與視覺化 · 多代理人產出、人工審閱 · 純靜態網站。</p>
+  </footer>
+
+  <script src="data/data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
