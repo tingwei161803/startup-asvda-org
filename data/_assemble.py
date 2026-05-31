@@ -14,6 +14,7 @@ Emits the window.* globals consumed by the composite app.js.
 import glob
 import json
 import os
+import re
 from collections import Counter
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -53,6 +54,63 @@ AWARD_META = {
     "premier": {"zh": "院長獎", "en": "Premier's Award",
                 "prize": {"zh": "600 萬元", "en": "NT$6M"}},
 }
+
+# --- industry groups (a controlled vocabulary for the "產業" filter axis) ---
+# Order = display order of the filter chips. "unknown" always shown last.
+INDUSTRY_META = [
+    ("biomed",       {"zh": "生醫・醫療",   "en": "Biomed & Health"}),
+    ("semicon",      {"zh": "半導體・電子", "en": "Semiconductor"}),
+    ("ai-soft",      {"zh": "AI・軟體",     "en": "AI & Software"}),
+    ("energy",       {"zh": "綠能・能源",   "en": "Energy & Cleantech"}),
+    ("food-agri",    {"zh": "食品・農漁",   "en": "Food & Agri"}),
+    ("material-mfg", {"zh": "材料・製造",   "en": "Materials & Mfg"}),
+    ("consumer",     {"zh": "消費・服務",   "en": "Consumer & Services"}),
+    ("edu-media",    {"zh": "教育・媒體",   "en": "Edu & Media"}),
+    ("unknown",      {"zh": "未分類／查無", "en": "Unclassified"}),
+]
+# Explicit, reviewed mapping for the 63 VERIFIED companies (id -> group).
+# Inferred companies and teams are intentionally NOT mapped -> they become
+# "unknown", so the industry filter never presents a guess as a fact.
+INDUSTRY_MAP = {
+    # biomed (生醫・醫療・保健)
+    "A0972": "biomed", "A0856": "biomed", "A0131": "biomed", "A0565": "biomed",
+    "A0076": "biomed", "A0219": "biomed", "A0622": "biomed", "A1192": "biomed",
+    "A0398": "biomed", "A1047": "biomed", "A0020": "biomed", "A1284": "biomed",
+    # semicon (半導體・電子・通訊)
+    "A1464": "semicon", "A0260": "semicon", "A0528": "semicon", "A0586": "semicon",
+    "A0508": "semicon",
+    # ai-soft (AI・軟體・數位)
+    "A0855": "ai-soft", "A0964": "ai-soft", "A1059": "ai-soft", "A0023": "ai-soft",
+    "A0727": "ai-soft", "A0849": "ai-soft", "A1023": "ai-soft", "A0251": "ai-soft",
+    "A1355": "ai-soft",
+    # energy (綠能・能源・電動車)
+    "A0059": "energy", "A0111": "energy", "A0330": "energy", "A0534": "energy",
+    "A0667": "energy", "A1579": "energy", "A0653": "energy", "A1064": "energy",
+    # food-agri (食品・農業・水產)
+    "A0636": "food-agri", "A0217": "food-agri", "A1103": "food-agri", "A1326": "food-agri",
+    "A0542": "food-agri", "A0635": "food-agri", "A0787": "food-agri", "A1012": "food-agri",
+    "A1491": "food-agri", "A0259": "food-agri", "A0619": "food-agri", "A0686": "food-agri",
+    "A0880": "food-agri", "A1018": "food-agri", "A1036": "food-agri", "A1077": "food-agri",
+    # material-mfg (材料・製造・精密)
+    "A0034": "material-mfg", "A0630": "material-mfg", "A0004": "material-mfg",
+    # consumer (消費・生活服務)
+    "A0745": "consumer", "A0359": "consumer", "A1043": "consumer", "A1187": "consumer",
+    "A1277": "consumer", "A0451": "consumer",
+    # edu-media (教育・文化・媒體)
+    "A0078": "edu-media", "A0466": "edu-media", "A1104": "edu-media", "A1197": "edu-media",
+}
+
+
+def strip_infer_prefix(obj):
+    """Remove a leading '（…推估）' / '(inferred…)' caveat from a {en,zh} object;
+    the UI carries that caveat via a clear badge/banner instead."""
+    out = {}
+    for k, v in obj.items():
+        s = str(v)
+        s = re.sub(r"^（[^）]*推估[^）]*）\s*", "", s)
+        s = re.sub(r"^\([^)]*inferred[^)]*\)\s*", "", s, flags=re.I)
+        out[k] = s.strip()
+    return out
 
 
 def load_enrichment():
@@ -135,6 +193,22 @@ def build():
                 if isinstance(url, str) and url.startswith("http"):
                     links.append({"title": str(l.get("title") or url), "url": url})
 
+            # inferred company: strip the inline "（…推估）" caveat from the text;
+            # the UI flags it via a clear badge + dialog warning instead, and the
+            # card hides the guess entirely (shows "查無公開資料").
+            if not verified:
+                summary = strip_infer_prefix(summary)
+                overview = strip_infer_prefix(overview)
+
+        # industry group for the "產業" filter axis. Only VERIFIED companies get a
+        # real group; inferred companies + teams -> "unknown" (查無/未分類) so the
+        # filter never presents a guess as a fact.
+        if (not is_team) and verified:
+            industry_group = INDUSTRY_MAP.get(cid)
+            assert industry_group, f"verified company not mapped to industry: {cid} {name}"
+        else:
+            industry_group = "unknown"
+
         # search tags (language-neutral-ish): id + industry words
         tags = [cid]
 
@@ -145,6 +219,7 @@ def build():
             "type": c["type"],
             "region": c["region"],
             "stage": c["stage"],
+            "industry_group": industry_group,
             "title": title,
             "industry": industry,
             "summary": summary,
@@ -176,6 +251,10 @@ def build():
     # ---- derived stats ----
     by_cat = Counter(i["category"] for i in items)
     by_type = Counter(i["type"] for i in items)
+    by_industry = Counter(i["industry_group"] for i in items)
+    # industry filter options: only groups with >=1 member, in defined order
+    industries = [{"key": k, "en": v["en"], "zh": v["zh"]}
+                  for k, v in INDUSTRY_META if by_industry.get(k)]
 
     # ---- winners (for the awards podium section) ----
     winners = [i for i in items if i["stage"] == "winner"]
@@ -243,8 +322,8 @@ def build():
         {
             "type": "gallery", "id": "companies",
             "title": {"zh": "100 強入選企業", "en": "The Top 100"},
-            "subtitle": {"zh": "全部 100 組入選名單。可依組別、企業／團隊、賽區、晉級階段篩選，或直接搜尋。",
-                         "en": "All 100 selected entries. Filter by track, type, region, or stage — or search."},
+            "subtitle": {"zh": "全部 100 組入選名單。可依組別、產業、企業／團隊、賽區、晉級階段篩選，或直接搜尋。",
+                         "en": "All 100 selected entries. Filter by track, industry, type, region, or stage — or search."},
             "items": items,
         },
         {
@@ -307,6 +386,7 @@ def build():
         f.write("   Re-run: uv run python data/build_raw.py && uv run python data/_assemble.py */\n\n")
         f.write("window.SITE_META = " + dump(meta) + ";\n\n")
         f.write("window.SITE_CATEGORIES = " + dump(categories) + ";\n\n")
+        f.write("window.SITE_INDUSTRIES = " + dump(industries) + ";\n\n")
         f.write("window.SITE_SECTIONS = " + dump(sections) + ";\n")
 
     verified = sum(1 for i in items if i["verified"])
@@ -315,6 +395,7 @@ def build():
     print(f"    enrichment files merged: {estats['files']} "
           f"(verified={estats['verified']}, inferred={estats['inferred']}, bad={estats['bad']})")
     print(f"    by track: {dict(by_cat)} | by type: {dict(by_type)}")
+    print(f"    by industry: {dict(by_industry)}")
 
 
 if __name__ == "__main__":

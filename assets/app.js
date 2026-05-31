@@ -22,9 +22,13 @@
   var SECTIONS = Array.isArray(window.SITE_SECTIONS) ? window.SITE_SECTIONS : [];
   var CATEGORIES = Array.isArray(window.SITE_CATEGORIES) ? window.SITE_CATEGORIES : [];
 
+  var INDUSTRIES = Array.isArray(window.SITE_INDUSTRIES) ? window.SITE_INDUSTRIES : [];
+
   /* category key -> {en,zh} */
   var CAT_LABEL = {};
   CATEGORIES.forEach(function (c) { CAT_LABEL[c.key] = { en: c.en, zh: c.zh }; });
+  var IND_LABEL = {};
+  INDUSTRIES.forEach(function (c) { IND_LABEL[c.key] = { en: c.en, zh: c.zh }; });
 
   /* fixed enum labels (mirror data/_assemble.py) */
   var LABELS = {
@@ -59,7 +63,11 @@
       searchPlaceholder: "Search a company name or ID…",
       all: "All",
       axisCategory: "Track", axisStage: "Stage", axisType: "Type", axisRegion: "Region",
-      verified: "Verified", inferred: "Inferred", sources: "Sources",
+      axisIndustry: "Industry",
+      verified: "Verified", inferred: "Estimated", sources: "Sources",
+      noData: "No public data", unverified: "Unverified",
+      noDataDesc: "No reliable public information found — open for a name-based estimate.",
+      inferWarn: "No reliable public information was found for this company. The industry and description below are estimated from the company name and competition track — for reference only and may be inaccurate.",
       idLabel: "Entry", cityLabel: "Region", noResults: "No matching entries.",
       clear: "Clear",
       count: function (n) { return n + (n === 1 ? " entry" : " entries"); }
@@ -70,7 +78,11 @@
       searchPlaceholder: "搜尋公司名稱或參賽編號…",
       all: "全部",
       axisCategory: "組別", axisStage: "階段", axisType: "性質", axisRegion: "賽區",
+      axisIndustry: "產業",
       verified: "已查證", inferred: "推估", sources: "來源",
+      noData: "查無公開資料", unverified: "未查證",
+      noDataDesc: "目前查無公開可靠資料，點開可查看依名稱與組別所做的推估。",
+      inferWarn: "查無此公司公開可靠資料。以下產業與簡介係依公司名稱與參賽組別推估，僅供參考、未必正確。",
       idLabel: "參賽編號", cityLabel: "地區", noResults: "找不到符合條件的入選名單。",
       clear: "清除",
       count: function (n) { return "共 " + n + " 組"; }
@@ -87,7 +99,7 @@
     theme: lsGet("theme") || "dark"          // dark = ceremony default
   };
   /* gallery filter axes (each independent, ANDed) */
-  var gstate = { q: "", category: "all", stage: "all", type: "all", region: "all" };
+  var gstate = { q: "", category: "all", industry: "all", stage: "all", type: "all", region: "all" };
 
   /* ---------- dom refs ---------- */
   var $ = function (id) { return document.getElementById(id); };
@@ -204,6 +216,8 @@
       var axes = [
         { key: "category", label: ui("axisCategory"),
           opts: CATEGORIES.map(function (c) { return { v: c.key, label: t({ en: c.en, zh: c.zh }), cls: "cat--" + c.key }; }) },
+        { key: "industry", label: ui("axisIndustry"),
+          opts: INDUSTRIES.map(function (c) { return { v: c.key, label: t({ en: c.en, zh: c.zh }), cls: "ind--" + c.key }; }) },
         { key: "stage", label: ui("axisStage"),
           opts: ["winner", "final", "semi"].map(function (v) { return { v: v, label: t(LABELS.stage[v]), cls: "stage--" + v }; }) },
         { key: "type", label: ui("axisType"),
@@ -333,6 +347,7 @@
   }
   function matches(item) {
     if (gstate.category !== "all" && item.category !== gstate.category) return false;
+    if (gstate.industry !== "all" && item.industry_group !== gstate.industry) return false;
     if (gstate.stage !== "all" && item.stage !== gstate.stage) return false;
     if (gstate.type !== "all" && item.type !== gstate.type) return false;
     if (gstate.region !== "all" && item.region !== gstate.region) return false;
@@ -346,7 +361,12 @@
     return hay.indexOf(q) !== -1;
   }
 
+  /* an inferred company = no public data found; only verified companies show
+     their real industry/summary. Teams are a separate (factual) case. */
+  function isInferred(item) { return item.type === "company" && !item.verified; }
+
   function galleryCard(item) {
+    var inferred = isInferred(item);
     var stageBadge = '<span class="stage-badge stage--' + escapeHtml(item.stage) + '">' +
       (item.stage === "winner"
         ? '<span class="material-symbols-rounded" aria-hidden="true">emoji_events</span>' : "") +
@@ -357,17 +377,25 @@
     var vbadge = item.verified
       ? '<span class="ccard__verified" title="' + escapeHtml(ui("verified")) + '">' +
         '<span class="material-symbols-rounded" aria-hidden="true">verified</span></span>' : "";
+    // industry + summary: verified -> real; inferred -> "查無公開資料"; team -> factual
+    var industryLine = inferred
+      ? '<p class="ccard__industry ccard__industry--nodata">' +
+          '<span class="material-symbols-rounded" aria-hidden="true">help</span>' +
+          escapeHtml(ui("noData")) + "</p>"
+      : '<p class="ccard__industry">' + escapeHtml(t(item.industry)) + "</p>";
+    var summaryLine = '<p class="ccard__summary' + (inferred ? " ccard__summary--muted" : "") + '">' +
+      escapeHtml(inferred ? ui("noDataDesc") : t(item.summary)) + "</p>";
     var chips =
       '<span class="mchip chip--cat cat--' + escapeHtml(item.category) + '">' + escapeHtml(catLabel(item.category)) + "</span>" +
       '<span class="mchip">' + escapeHtml(t(LABELS.type[item.type])) + "</span>" +
-      '<span class="mchip">' + escapeHtml(t(LABELS.region[item.region])) + "</span>";
+      '<span class="mchip">' + escapeHtml(t(LABELS.region[item.region])) + "</span>" +
+      (inferred ? '<span class="mchip mchip--est">' + escapeHtml(ui("unverified")) + "</span>" : "");
     return '<article class="ccard card stage--' + escapeHtml(item.stage) + '" tabindex="0" role="button" data-item ' +
         'data-slug="' + escapeHtml(item.slug) + '" aria-label="' + escapeHtml(t(item.title)) + '">' +
       awardRibbon +
       '<div class="ccard__top"><span class="ccard__id">' + escapeHtml(item.id) + "</span>" + stageBadge + "</div>" +
       '<h3 class="ccard__name">' + escapeHtml(t(item.title)) + vbadge + "</h3>" +
-      '<p class="ccard__industry">' + escapeHtml(t(item.industry)) + "</p>" +
-      '<p class="ccard__summary">' + escapeHtml(t(item.summary)) + "</p>" +
+      industryLine + summaryLine +
       '<div class="ccard__chips">' + chips + "</div>" +
     "</article>";
   }
@@ -537,13 +565,24 @@
     var item = ITEM_INDEX[slug];
     if (!item) return;
 
+    var inferred = isInferred(item);
+    // status flag: verified company -> 已查證 ; inferred company -> 推估 ;
+    // team -> no flag (its anonymized status is shown via the Type fact, not a guess)
+    var statusFlag = item.verified
+      ? '<span class="d-flag d-flag--ok"><span class="material-symbols-rounded" aria-hidden="true">verified</span>' + escapeHtml(ui("verified")) + "</span>"
+      : (inferred
+        ? '<span class="d-flag d-flag--inf"><span class="material-symbols-rounded" aria-hidden="true">help</span>' + escapeHtml(ui("inferred")) + "</span>"
+        : "");
     var badges =
       '<span class="stage-badge stage--' + escapeHtml(item.stage) + '">' +
         (item.stage === "winner" ? '<span class="material-symbols-rounded" aria-hidden="true">emoji_events</span>' : "") +
-        escapeHtml(t(LABELS.stage[item.stage])) + "</span>" +
-      (item.verified
-        ? '<span class="d-flag d-flag--ok"><span class="material-symbols-rounded" aria-hidden="true">verified</span>' + escapeHtml(ui("verified")) + "</span>"
-        : '<span class="d-flag d-flag--inf"><span class="material-symbols-rounded" aria-hidden="true">help</span>' + escapeHtml(ui("inferred")) + "</span>");
+        escapeHtml(t(LABELS.stage[item.stage])) + "</span>" + statusFlag;
+
+    // inferred company: a prominent warning that the industry/desc below is a guess
+    var warnBanner = inferred
+      ? '<div class="d-warn"><span class="material-symbols-rounded" aria-hidden="true">warning</span>' +
+        '<span>' + escapeHtml(ui("inferWarn")) + "</span></div>"
+      : "";
 
     var awardBlock = item.award
       ? '<div class="d-award ribbon--' + escapeHtml(item.award) + '">' +
@@ -575,6 +614,7 @@
       awardBlock +
       '<div class="d-badges">' + badges + "</div>" +
       '<h2 id="dialogTitle">' + escapeHtml(t(item.title)) + "</h2>" +
+      warnBanner +
       '<p class="d-industry">' + escapeHtml(t(item.industry)) + "</p>" +
       '<p class="d-overview">' + escapeHtml(t(item.overview) || t(item.summary)) + "</p>" +
       rows + linkBlock;

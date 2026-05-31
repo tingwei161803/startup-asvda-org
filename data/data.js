@@ -30,6 +30,54 @@ window.SITE_CATEGORIES = [
   }
 ];
 
+window.SITE_INDUSTRIES = [
+  {
+    "key": "biomed",
+    "en": "Biomed & Health",
+    "zh": "生醫・醫療"
+  },
+  {
+    "key": "semicon",
+    "en": "Semiconductor",
+    "zh": "半導體・電子"
+  },
+  {
+    "key": "ai-soft",
+    "en": "AI & Software",
+    "zh": "AI・軟體"
+  },
+  {
+    "key": "energy",
+    "en": "Energy & Cleantech",
+    "zh": "綠能・能源"
+  },
+  {
+    "key": "food-agri",
+    "en": "Food & Agri",
+    "zh": "食品・農漁"
+  },
+  {
+    "key": "material-mfg",
+    "en": "Materials & Mfg",
+    "zh": "材料・製造"
+  },
+  {
+    "key": "consumer",
+    "en": "Consumer & Services",
+    "zh": "消費・服務"
+  },
+  {
+    "key": "edu-media",
+    "en": "Edu & Media",
+    "zh": "教育・媒體"
+  },
+  {
+    "key": "unknown",
+    "en": "Unclassified",
+    "zh": "未分類／查無"
+  }
+];
+
 window.SITE_SECTIONS = [
   {
     "type": "hero",
@@ -272,8 +320,8 @@ window.SITE_SECTIONS = [
       "en": "The Top 100"
     },
     "subtitle": {
-      "zh": "全部 100 組入選名單。可依組別、企業／團隊、賽區、晉級階段篩選，或直接搜尋。",
-      "en": "All 100 selected entries. Filter by track, type, region, or stage — or search."
+      "zh": "全部 100 組入選名單。可依組別、產業、企業／團隊、賽區、晉級階段篩選，或直接搜尋。",
+      "en": "All 100 selected entries. Filter by track, industry, type, region, or stage — or search."
     },
     "items": [
       {
@@ -283,6 +331,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "winner",
+        "industry_group": "biomed",
         "title": {
           "zh": "艾斯創生醫股份有限公司",
           "en": "Astron Medtech Co., Ltd."
@@ -323,6 +372,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "winner",
+        "industry_group": "semicon",
         "title": {
           "zh": "星相科技股份有限公司",
           "en": "Phasetrum Inc."
@@ -363,6 +413,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "winner",
+        "industry_group": "biomed",
         "title": {
           "zh": "展興生物科技股份有限公司",
           "en": "BacuNova BioTech Co., Ltd."
@@ -403,6 +454,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "winner",
+        "industry_group": "biomed",
         "title": {
           "zh": "先勁智能有限公司",
           "en": "AHEAD Intelligence Ltd."
@@ -443,6 +495,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "winner",
+        "industry_group": "semicon",
         "title": {
           "zh": "原子精製股份有限公司",
           "en": "Atomic Refining Co., Ltd."
@@ -479,6 +532,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "winner",
+        "industry_group": "biomed",
         "title": {
           "zh": "亞洲準譯股份有限公司",
           "en": "Asia Pathogenomics Co., Ltd."
@@ -519,6 +573,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "winner",
+        "industry_group": "material-mfg",
         "title": {
           "zh": "皓準科技股份有限公司",
           "en": "Haojuen Technology Co., Ltd."
@@ -559,6 +614,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "winner",
+        "industry_group": "food-agri",
         "title": {
           "zh": "日日好食股份有限公司",
           "en": "Goodfoodeveryday Co., Ltd."
@@ -599,6 +655,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "winner",
+        "industry_group": "food-agri",
         "title": {
           "zh": "豐漁水產養殖有限公司",
           "en": "EZAQUACULTURE"
@@ -639,6 +696,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "final",
+        "industry_group": "material-mfg",
         "title": {
           "zh": "台灣若美科技股份有限公司",
           "en": "Taiwan Ruomei Technology Co., Ltd."
@@ -677,6 +735,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "final",
+        "industry_group": "biomed",
         "title": {
           "zh": "睿泉生技股份有限公司",
           "en": "Vernus AI"
@@ -715,6 +774,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "final",
+        "industry_group": "biomed",
         "title": {
           "zh": "神瑞人工智慧股份有限公司",
           "en": "DeepRad.AI"
@@ -753,6 +813,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "final",
+        "industry_group": "semicon",
         "title": {
           "zh": "歐姆佳科技股份有限公司",
           "en": "Ohmplus Technology Inc."
@@ -791,6 +852,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "final",
+        "industry_group": "semicon",
         "title": {
           "zh": "煊程科技股份有限公司",
           "en": "煊程科技股份有限公司"
@@ -825,6 +887,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "final",
+        "industry_group": "biomed",
         "title": {
           "zh": "蔚流生物科技股份有限公司",
           "en": "蔚流生物科技股份有限公司"
@@ -859,6 +922,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "final",
+        "industry_group": "ai-soft",
         "title": {
           "zh": "艾斯冰殼股份有限公司",
           "en": "ICEshell"
@@ -897,6 +961,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "final",
+        "industry_group": "ai-soft",
         "title": {
           "zh": "赫侖股份有限公司",
           "en": "Holon Robotics Corporation"
@@ -935,6 +1000,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "final",
+        "industry_group": "ai-soft",
         "title": {
           "zh": "築智科技股份有限公司",
           "en": "SparkGen"
@@ -973,6 +1039,7 @@ window.SITE_SECTIONS = [
         "type": "team",
         "region": "non-metro",
         "stage": "final",
+        "industry_group": "unknown",
         "title": {
           "zh": "王O元",
           "en": "王O元"
@@ -1002,6 +1069,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "final",
+        "industry_group": "material-mfg",
         "title": {
           "zh": "勝豐精密有限公司",
           "en": "Sheng Fong Precision Co., Ltd."
@@ -1040,6 +1108,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "final",
+        "industry_group": "consumer",
         "title": {
           "zh": "蘊域科技股份有限公司",
           "en": "Yun-X Tek Co., Ltd."
@@ -1078,6 +1147,7 @@ window.SITE_SECTIONS = [
         "type": "team",
         "region": "non-metro",
         "stage": "final",
+        "industry_group": "unknown",
         "title": {
           "zh": "陳O萍",
           "en": "陳O萍"
@@ -1107,6 +1177,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "final",
+        "industry_group": "energy",
         "title": {
           "zh": "安瑟樂威股份有限公司",
           "en": "Ancillary Power Co., Ltd."
@@ -1141,6 +1212,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "final",
+        "industry_group": "energy",
         "title": {
           "zh": "華城電能科技股份有限公司",
           "en": "Fortune Electric Value (EVALUE)"
@@ -1179,6 +1251,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "final",
+        "industry_group": "energy",
         "title": {
           "zh": "科淨能源股份有限公司",
           "en": "CarbonClean Energy Co., Ltd."
@@ -1217,6 +1290,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "final",
+        "industry_group": "energy",
         "title": {
           "zh": "台灣微網科技股份有限公司",
           "en": "Taiwan Microgrid Technology Co., Ltd."
@@ -1255,6 +1329,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "final",
+        "industry_group": "energy",
         "title": {
           "zh": "廣太綠能股份有限公司",
           "en": "GuangTai Green Co., Ltd."
@@ -1293,6 +1368,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "final",
+        "industry_group": "food-agri",
         "title": {
           "zh": "樸農生技股份有限公司",
           "en": "PuNong Biotech Co., Ltd."
@@ -1331,6 +1407,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "final",
+        "industry_group": "food-agri",
         "title": {
           "zh": "蘇菲營養生化股份有限公司",
           "en": "Sophie's BioNutrients (Taiwan) Co., Ltd."
@@ -1369,6 +1446,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "final",
+        "industry_group": "energy",
         "title": {
           "zh": "岳鼎智慧能源股份有限公司",
           "en": "xMight Corporation"
@@ -1407,6 +1485,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "ai-soft",
         "title": {
           "zh": "夯客股份有限公司",
           "en": "Hunger Co., Ltd."
@@ -1445,6 +1524,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "小富婆顧問有限公司",
           "en": "Xiaofupo Consultant Co., Ltd."
@@ -1454,12 +1534,12 @@ window.SITE_SECTIONS = [
           "zh": "財務顧問"
         },
         "summary": {
-          "en": "(inferred from name and track) Provides wealth-management and financial advisory services.",
-          "zh": "（依名稱與參賽組別推估）提供理財與財富管理相關的顧問服務。"
+          "en": "Provides wealth-management and financial advisory services.",
+          "zh": "提供理財與財富管理相關的顧問服務。"
         },
         "overview": {
-          "en": "(inferred from name and track) Xiaofupo Consultant is a consulting company registered in Xinyi District, Taipei (business no. 96673243, representative Yang Haobo, capital NT$100,000). Company registration was found, but no product or service description is available online; given the name and the frontier-tech track, it likely operates in fintech-style wealth/finance advisory or financial-literacy services.",
-          "zh": "（依名稱與參賽組別推估）小富婆顧問為設於臺北市信義區的顧問有限公司（統編96673243，負責人楊皓博，資本額10萬元），已查得公司登記資料但未能找到其產品或服務說明。依「小富婆」名稱與前瞻科技組推測，可能切入理財、財富管理或財商教育等金融科技顧問方向。"
+          "en": "Xiaofupo Consultant is a consulting company registered in Xinyi District, Taipei (business no. 96673243, representative Yang Haobo, capital NT$100,000). Company registration was found, but no product or service description is available online; given the name and the frontier-tech track, it likely operates in fintech-style wealth/finance advisory or financial-literacy services.",
+          "zh": "小富婆顧問為設於臺北市信義區的顧問有限公司（統編96673243，負責人楊皓博，資本額10萬元），已查得公司登記資料但未能找到其產品或服務說明。依「小富婆」名稱與前瞻科技組推測，可能切入理財、財富管理或財商教育等金融科技顧問方向。"
         },
         "verified": false,
         "links": [
@@ -1479,6 +1559,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "夆泩數位發展股份有限公司",
           "en": "夆泩數位發展股份有限公司"
@@ -1488,12 +1569,12 @@ window.SITE_SECTIONS = [
           "zh": "數位科技"
         },
         "summary": {
-          "en": "(inferred from name and track) A frontier-tech company engaged in digital development and software services.",
-          "zh": "（依名稱與參賽組別推估）從事數位發展與軟體服務的前瞻科技公司。"
+          "en": "A frontier-tech company engaged in digital development and software services.",
+          "zh": "從事數位發展與軟體服務的前瞻科技公司。"
         },
         "overview": {
-          "en": "(inferred from name and track) Feng-Sheng Digital Development appears to be a technology company focused on digital development, likely offering software development, digital platforms or digital-transformation services. Its actual scope could not be confirmed from public sources.",
-          "zh": "（依名稱與參賽組別推估）夆泩數位發展應為一家投入數位發展的科技公司，可能提供軟體開發、數位平台或數位轉型相關的技術服務。實際營業內容未能於公開來源確認。"
+          "en": "Feng-Sheng Digital Development appears to be a technology company focused on digital development, likely offering software development, digital platforms or digital-transformation services. Its actual scope could not be confirmed from public sources.",
+          "zh": "夆泩數位發展應為一家投入數位發展的科技公司，可能提供軟體開發、數位平台或數位轉型相關的技術服務。實際營業內容未能於公開來源確認。"
         },
         "verified": false,
         "links": [],
@@ -1508,6 +1589,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "semicon",
         "title": {
           "zh": "繁晶科技股份有限公司",
           "en": "Ranictek Inc."
@@ -1546,6 +1628,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "食源科技有限公司",
           "en": "食源科技有限公司"
@@ -1555,12 +1638,12 @@ window.SITE_SECTIONS = [
           "zh": "食品科技"
         },
         "summary": {
-          "en": "(inferred from name and track) A startup applying frontier technology to food-source related products.",
-          "zh": "（依名稱與參賽組別推估）運用前瞻技術開發食品來源相關產品的新創。"
+          "en": "A startup applying frontier technology to food-source related products.",
+          "zh": "運用前瞻技術開發食品來源相關產品的新創。"
         },
         "overview": {
-          "en": "(inferred from name and track) Listed under the frontier-technology track, Food Source Technology Co., Ltd. is likely a startup applying technological innovation to food sourcing or ingredient supply, potentially involving food tech, smart ingredients, or food supply-chain technology. No definitive public information was found online; the above is inferred from the company name and competition track.",
-          "zh": "（依名稱與參賽組別推估）食源科技有限公司列於前瞻科技組，推測為以科技創新切入食品源頭或食材供應領域的新創團隊，可能涉及食品科技、智慧食材或食品供應鏈相關技術。目前未能於公開網路找到該公司明確資料，以上為依公司名稱與參賽組別所做之推估。"
+          "en": "Listed under the frontier-technology track, Food Source Technology Co., Ltd. is likely a startup applying technological innovation to food sourcing or ingredient supply, potentially involving food tech, smart ingredients, or food supply-chain technology. No definitive public information was found online; the above is inferred from the company name and competition track.",
+          "zh": "食源科技有限公司列於前瞻科技組，推測為以科技創新切入食品源頭或食材供應領域的新創團隊，可能涉及食品科技、智慧食材或食品供應鏈相關技術。目前未能於公開網路找到該公司明確資料，以上為依公司名稱與參賽組別所做之推估。"
         },
         "verified": false,
         "links": [],
@@ -1575,6 +1658,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "energy",
         "title": {
           "zh": "越創科技股份有限公司",
           "en": "Viettron Technology Co., Ltd."
@@ -1613,6 +1697,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "ai-soft",
         "title": {
           "zh": "摩絡人工智慧股份有限公司",
           "en": "Morale AI Co., Ltd."
@@ -1651,6 +1736,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "ai-soft",
         "title": {
           "zh": "科飛數位股份有限公司",
           "en": "Kopherbit Co., Ltd."
@@ -1689,6 +1775,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "ai-soft",
         "title": {
           "zh": "雲界數位創新股份有限公司",
           "en": "eCloudEdge Digital Innovation Co., Ltd."
@@ -1727,6 +1814,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "biomed",
         "title": {
           "zh": "凱恩生醫股份有限公司",
           "en": "FM&G Biomed Inc."
@@ -1765,6 +1853,7 @@ window.SITE_SECTIONS = [
         "type": "team",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "吳O孝",
           "en": "吳O孝"
@@ -1794,6 +1883,7 @@ window.SITE_SECTIONS = [
         "type": "team",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "林O智",
           "en": "林O智"
@@ -1823,6 +1913,7 @@ window.SITE_SECTIONS = [
         "type": "team",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "周O喬",
           "en": "周O喬"
@@ -1852,6 +1943,7 @@ window.SITE_SECTIONS = [
         "type": "team",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "褚O顯",
           "en": "褚O顯"
@@ -1881,6 +1973,7 @@ window.SITE_SECTIONS = [
         "type": "team",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "吳O君",
           "en": "吳O君"
@@ -1910,6 +2003,7 @@ window.SITE_SECTIONS = [
         "type": "team",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "郭O妤",
           "en": "郭O妤"
@@ -1939,6 +2033,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "edu-media",
         "title": {
           "zh": "日美資訊股份有限公司",
           "en": "Manga Co., Ltd."
@@ -1977,6 +2072,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "拓洋控股有限公司",
           "en": "拓洋控股有限公司"
@@ -1986,12 +2082,12 @@ window.SITE_SECTIONS = [
           "zh": "消費品牌"
         },
         "summary": {
-          "en": "(inferred from name and track) A holding company building and integrating consumer-lifestyle brands.",
-          "zh": "（依名稱與參賽組別推估）經營消費生活品牌的控股與整合事業。"
+          "en": "A holding company building and integrating consumer-lifestyle brands.",
+          "zh": "經營消費生活品牌的控股與整合事業。"
         },
         "overview": {
-          "en": "(inferred from name and track) Tuoyang Holdings is likely a holding company active in the consumer-lifestyle sector, possibly consolidating retail, food or lifestyle consumer brands for brand operation and synergy. Its actual scope could not be confirmed from public sources.",
-          "zh": "（依名稱與參賽組別推估）拓洋控股應為一家投入消費生活領域的控股型公司，可能整合零售、餐飲或生活消費品牌進行品牌經營與資源綜效。實際營業內容未能於公開來源確認。"
+          "en": "Tuoyang Holdings is likely a holding company active in the consumer-lifestyle sector, possibly consolidating retail, food or lifestyle consumer brands for brand operation and synergy. Its actual scope could not be confirmed from public sources.",
+          "zh": "拓洋控股應為一家投入消費生活領域的控股型公司，可能整合零售、餐飲或生活消費品牌進行品牌經營與資源綜效。實際營業內容未能於公開來源確認。"
         },
         "verified": false,
         "links": [],
@@ -2006,6 +2102,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "維特魯威運動科技股份有限公司",
           "en": "Vitruvian Sports Technology Co., Ltd."
@@ -2019,8 +2116,8 @@ window.SITE_SECTIONS = [
           "zh": "結合科技與運動訓練，提供體能評估與智慧化運動服務的新創。"
         },
         "overview": {
-          "en": "(inferred from name and track) No public official record could be found for Vitruvian Sports Technology Co., Ltd. Given its name (Vitruvian, evoking the Vitruvian Man and ideal body proportions), the 'sports technology' descriptor, and its consumer-lifestyle track, it likely operates in sports tech, possibly combining sensing, data or AI to offer fitness training, athletic-performance assessment or smart-fitness products and services.",
-          "zh": "（依名稱與參賽組別推估）維特魯威運動科技股份有限公司未能找到公開可查的官方資料。依其名稱「維特魯威」（達文西維特魯威人，象徵理想人體比例）與「運動科技」及消費生活組屬性研判，該公司應從事運動科技領域，可能結合感測、數據或AI技術，提供體能訓練、運動表現評估或智慧健身相關產品與服務。"
+          "en": "No public official record could be found for Vitruvian Sports Technology Co., Ltd. Given its name (Vitruvian, evoking the Vitruvian Man and ideal body proportions), the 'sports technology' descriptor, and its consumer-lifestyle track, it likely operates in sports tech, possibly combining sensing, data or AI to offer fitness training, athletic-performance assessment or smart-fitness products and services.",
+          "zh": "維特魯威運動科技股份有限公司未能找到公開可查的官方資料。依其名稱「維特魯威」（達文西維特魯威人，象徵理想人體比例）與「運動科技」及消費生活組屬性研判，該公司應從事運動科技領域，可能結合感測、數據或AI技術，提供體能訓練、運動表現評估或智慧健身相關產品與服務。"
         },
         "verified": false,
         "links": [],
@@ -2035,6 +2132,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "ai-soft",
         "title": {
           "zh": "對稱資訊股份有限公司",
           "en": "Symmetry Info"
@@ -2073,6 +2171,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "查爾斯有限公司",
           "en": "查爾斯有限公司"
@@ -2082,12 +2181,12 @@ window.SITE_SECTIONS = [
           "zh": "消費生活"
         },
         "summary": {
-          "en": "(inferred from name and track) Offers consumer-lifestyle products or services.",
-          "zh": "（依名稱與參賽組別推估）提供消費生活相關的商品或服務。"
+          "en": "Offers consumer-lifestyle products or services.",
+          "zh": "提供消費生活相關的商品或服務。"
         },
         "overview": {
-          "en": "(inferred from name and track) As an entrant in the consumer-lifestyle track, Charles Co., Ltd. is presumed to focus on consumer, lifestyle or everyday-goods areas; limited public information prevents confirming its specific products or services.",
-          "zh": "（依名稱與參賽組別推估）查爾斯有限公司參加創業大聯盟競賽的消費生活組，研判其聚焦消費、生活風格或日常用品相關領域；因網路公開資訊有限，無法確認具體產品與服務內容。"
+          "en": "As an entrant in the consumer-lifestyle track, Charles Co., Ltd. is presumed to focus on consumer, lifestyle or everyday-goods areas; limited public information prevents confirming its specific products or services.",
+          "zh": "查爾斯有限公司參加創業大聯盟競賽的消費生活組，研判其聚焦消費、生活風格或日常用品相關領域；因網路公開資訊有限，無法確認具體產品與服務內容。"
         },
         "verified": false,
         "links": [],
@@ -2102,6 +2201,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "consumer",
         "title": {
           "zh": "成家檢驗科技股份有限公司",
           "en": "成家檢驗科技股份有限公司"
@@ -2140,6 +2240,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "biomed",
         "title": {
           "zh": "恩基生醫股份有限公司",
           "en": "Enki Biomedical Co., Ltd."
@@ -2178,6 +2279,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "普凱斯股份有限公司",
           "en": "普凱斯股份有限公司"
@@ -2187,12 +2289,12 @@ window.SITE_SECTIONS = [
           "zh": "消費生活"
         },
         "summary": {
-          "en": "(inferred from name and track) A startup offering consumer-lifestyle products or services.",
-          "zh": "（依名稱與參賽組別推估）經營消費生活相關產品或服務的新創。"
+          "en": "A startup offering consumer-lifestyle products or services.",
+          "zh": "經營消費生活相關產品或服務的新創。"
         },
         "overview": {
-          "en": "(inferred from name and track) Pukaisi appears to be a startup in the consumer-lifestyle sector, possibly involving consumer products, services or brand operation. Its actual scope could not be confirmed from public sources.",
-          "zh": "（依名稱與參賽組別推估）普凱斯應為一家消費生活領域的新創公司，可能涉及消費性產品、服務或品牌經營。實際營業內容未能於公開來源確認。"
+          "en": "Pukaisi appears to be a startup in the consumer-lifestyle sector, possibly involving consumer products, services or brand operation. Its actual scope could not be confirmed from public sources.",
+          "zh": "普凱斯應為一家消費生活領域的新創公司，可能涉及消費性產品、服務或品牌經營。實際營業內容未能於公開來源確認。"
         },
         "verified": false,
         "links": [],
@@ -2207,6 +2309,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "惠生醫藥國際股份有限公司",
           "en": "惠生醫藥國際股份有限公司"
@@ -2216,12 +2319,12 @@ window.SITE_SECTIONS = [
           "zh": "醫藥保健"
         },
         "summary": {
-          "en": "(inferred from name and track) Develops and internationally markets pharmaceutical and health products.",
-          "zh": "（依名稱與參賽組別推估）從事醫藥保健產品的研發與國際銷售。"
+          "en": "Develops and internationally markets pharmaceutical and health products.",
+          "zh": "從事醫藥保健產品的研發與國際銷售。"
         },
         "overview": {
-          "en": "(inferred from name and track) Hui Sheng Pharma International appears to focus on pharmaceutical, health or wellness products, with 'International' suggesting cross-border sales or import/export. Placed in the consumer/lifestyle track, it likely targets the health-consumer market. No confirmed public source was found; this entry is inferred from the company name and competition track.",
-          "zh": "（依名稱與參賽組別推估）惠生醫藥國際應為一家專注於醫藥、保健或健康產品的企業，名稱中的「國際」可能指涉跨境銷售或進出口業務。歸屬消費生活組，研判其產品面向健康消費市場。本資料未能查得該公司確切的公開來源，僅依公司名稱與參賽組別推估。"
+          "en": "Hui Sheng Pharma International appears to focus on pharmaceutical, health or wellness products, with 'International' suggesting cross-border sales or import/export. Placed in the consumer/lifestyle track, it likely targets the health-consumer market. No confirmed public source was found; this entry is inferred from the company name and competition track.",
+          "zh": "惠生醫藥國際應為一家專注於醫藥、保健或健康產品的企業，名稱中的「國際」可能指涉跨境銷售或進出口業務。歸屬消費生活組，研判其產品面向健康消費市場。本資料未能查得該公司確切的公開來源，僅依公司名稱與參賽組別推估。"
         },
         "verified": false,
         "links": [],
@@ -2236,6 +2339,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "edu-media",
         "title": {
           "zh": "親子學股份有限公司",
           "en": "Parenting Learning Co., Ltd."
@@ -2274,6 +2378,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "food-agri",
         "title": {
           "zh": "康普食飲股份有限公司",
           "en": "Kai Kombucha"
@@ -2312,6 +2417,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "food-agri",
         "title": {
           "zh": "豆豆方股份有限公司",
           "en": "Rural Chees"
@@ -2350,6 +2456,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "黑柴管理顧問有限公司",
           "en": "黑柴管理顧問有限公司"
@@ -2359,12 +2466,12 @@ window.SITE_SECTIONS = [
           "zh": "管理顧問"
         },
         "summary": {
-          "en": "(inferred from name and track) Provides management and brand-marketing consulting for the consumer-lifestyle sector.",
-          "zh": "（依名稱與參賽組別推估）提供消費生活領域的管理與品牌行銷顧問服務。"
+          "en": "Provides management and brand-marketing consulting for the consumer-lifestyle sector.",
+          "zh": "提供消費生活領域的管理與品牌行銷顧問服務。"
         },
         "overview": {
-          "en": "(inferred from name and track) Hei-Chai Management Consulting appears to be a consulting firm likely focused on brand strategy, marketing planning and operational advisory for consumer-lifestyle businesses. Its actual scope could not be confirmed from public sources.",
-          "zh": "（依名稱與參賽組別推估）黑柴管理顧問應為一家管理顧問公司，可能聚焦於消費生活產業的品牌策略、行銷規劃與營運輔導等顧問服務。實際營業內容未能於公開來源確認。"
+          "en": "Hei-Chai Management Consulting appears to be a consulting firm likely focused on brand strategy, marketing planning and operational advisory for consumer-lifestyle businesses. Its actual scope could not be confirmed from public sources.",
+          "zh": "黑柴管理顧問應為一家管理顧問公司，可能聚焦於消費生活產業的品牌策略、行銷規劃與營運輔導等顧問服務。實際營業內容未能於公開來源確認。"
         },
         "verified": false,
         "links": [],
@@ -2379,6 +2486,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "food-agri",
         "title": {
           "zh": "強尼甜點工藝",
           "en": "Johnny Yan pâtissier"
@@ -2417,6 +2525,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "玫瑰花瓣科技有限公司",
           "en": "玫瑰花瓣科技有限公司"
@@ -2426,12 +2535,12 @@ window.SITE_SECTIONS = [
           "zh": "消費科技"
         },
         "summary": {
-          "en": "(inferred from name and track) A Hualien-based consumer lifestyle tech startup.",
-          "zh": "（依名稱與參賽組別推估）花蓮在地的消費生活科技新創。"
+          "en": "A Hualien-based consumer lifestyle tech startup.",
+          "zh": "花蓮在地的消費生活科技新創。"
         },
         "overview": {
-          "en": "(inferred from name and track) Rose Petal Technology Co., Ltd. is registered in Fenglin Township, Hualien County, with capital of NT$500,000 and representative Zhuang Yanshan. Only company-registration data is publicly available, with no clear product or service description; based on its name and competition track, it is likely a consumer-lifestyle-oriented technology product or service startup.",
-          "zh": "（依名稱與參賽組別推估）玫瑰花瓣科技有限公司登記於花蓮縣鳳林鎮，資本額新台幣50萬元，代表人為莊彥山。公開資料僅見公司登記資訊，未見明確產品或服務說明；依其名稱與參賽組別推測，可能為消費生活相關的科技產品或服務新創。"
+          "en": "Rose Petal Technology Co., Ltd. is registered in Fenglin Township, Hualien County, with capital of NT$500,000 and representative Zhuang Yanshan. Only company-registration data is publicly available, with no clear product or service description; based on its name and competition track, it is likely a consumer-lifestyle-oriented technology product or service startup.",
+          "zh": "玫瑰花瓣科技有限公司登記於花蓮縣鳳林鎮，資本額新台幣50萬元，代表人為莊彥山。公開資料僅見公司登記資訊，未見明確產品或服務說明；依其名稱與參賽組別推測，可能為消費生活相關的科技產品或服務新創。"
         },
         "verified": false,
         "links": [],
@@ -2446,6 +2555,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "森川海洋股份有限公司",
           "en": "森川海洋股份有限公司"
@@ -2455,12 +2565,12 @@ window.SITE_SECTIONS = [
           "zh": "海洋食品"
         },
         "summary": {
-          "en": "(inferred from name and track) Likely engaged in marine aquaculture or seafood-product business.",
-          "zh": "（依名稱與參賽組別推估）從事海洋水產養殖或水產食品相關業務。"
+          "en": "Likely engaged in marine aquaculture or seafood-product business.",
+          "zh": "從事海洋水產養殖或水產食品相關業務。"
         },
         "overview": {
-          "en": "(inferred from name and track) No clear official information or product description for Sen Chuan Marine Co., Ltd. could be confirmed online. Based on the name and the consumer-lifestyle track, the company likely operates in marine aquaculture, seafood processing, or a seafood food brand within ocean-related consumer-lifestyle business.",
-          "zh": "（依名稱與參賽組別推估）未能在公開網路上明確查得森川海洋股份有限公司的官方資料或產品說明。依「森川海洋」名稱與消費生活組推測，公司可能從事海洋水產養殖、水產加工或海鮮食品品牌等與海洋資源相關的消費生活業務。"
+          "en": "No clear official information or product description for Sen Chuan Marine Co., Ltd. could be confirmed online. Based on the name and the consumer-lifestyle track, the company likely operates in marine aquaculture, seafood processing, or a seafood food brand within ocean-related consumer-lifestyle business.",
+          "zh": "未能在公開網路上明確查得森川海洋股份有限公司的官方資料或產品說明。依「森川海洋」名稱與消費生活組推測，公司可能從事海洋水產養殖、水產加工或海鮮食品品牌等與海洋資源相關的消費生活業務。"
         },
         "verified": false,
         "links": [],
@@ -2475,6 +2585,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "food-agri",
         "title": {
           "zh": "好時食食品股份有限公司",
           "en": "Bebopice Co., Ltd."
@@ -2513,6 +2624,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "consumer",
         "title": {
           "zh": "路朋科技股份有限公司",
           "en": "LOOP (Lu Peng Technology Co., Ltd.)"
@@ -2551,6 +2663,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "biomed",
         "title": {
           "zh": "米蔚健康顧問股份有限公司",
           "en": "Midway"
@@ -2589,6 +2702,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "edu-media",
         "title": {
           "zh": "小耳朵文化傳媒股份有限公司",
           "en": "Mom&Dad Story"
@@ -2627,6 +2741,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "consumer",
         "title": {
           "zh": "積木旅遊旅行社股份有限公司",
           "en": "Bricks Travel Inc."
@@ -2665,6 +2780,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "edu-media",
         "title": {
           "zh": "索力星球股份有限公司",
           "en": "AI SOLLY"
@@ -2703,6 +2819,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "記持製造有限公司",
           "en": "記持製造有限公司"
@@ -2712,12 +2829,12 @@ window.SITE_SECTIONS = [
           "zh": "生活製品"
         },
         "summary": {
-          "en": "(inferred from name and track) Manufactures lifestyle goods themed around memory and keepsakes.",
-          "zh": "（依名稱與參賽組別推估）以記憶與紀念為主題，製造生活相關製品。"
+          "en": "Manufactures lifestyle goods themed around memory and keepsakes.",
+          "zh": "以記憶與紀念為主題，製造生活相關製品。"
         },
         "overview": {
-          "en": "(inferred from name and track) The name combines 'memory/keeping' with 'manufacturing', suggesting Jichi Manufacturing may be a maker of lifestyle goods themed around memory, commemoration or emotional connection, possibly spanning keepsakes, customized items or cultural-creative everyday products. Placed in the consumer/lifestyle track, it targets the general consumer market. No confirmed public source was found; this entry is inferred from the company name and competition track.",
-          "zh": "（依名稱與參賽組別推估）記持製造的名稱中「記持」有記憶、留存之意，「製造」指向產品生產，研判其可能為一家以記憶、紀念或情感連結為主題的生活製品製造商，產品可能涵蓋紀念品、客製化或文創類生活用品。歸屬消費生活組，面向一般消費市場。本資料未能查得該公司確切的公開來源，僅依公司名稱與參賽組別推估。"
+          "en": "The name combines 'memory/keeping' with 'manufacturing', suggesting Jichi Manufacturing may be a maker of lifestyle goods themed around memory, commemoration or emotional connection, possibly spanning keepsakes, customized items or cultural-creative everyday products. Placed in the consumer/lifestyle track, it targets the general consumer market. No confirmed public source was found; this entry is inferred from the company name and competition track.",
+          "zh": "記持製造的名稱中「記持」有記憶、留存之意，「製造」指向產品生產，研判其可能為一家以記憶、紀念或情感連結為主題的生活製品製造商，產品可能涵蓋紀念品、客製化或文創類生活用品。歸屬消費生活組，面向一般消費市場。本資料未能查得該公司確切的公開來源，僅依公司名稱與參賽組別推估。"
         },
         "verified": false,
         "links": [],
@@ -2732,6 +2849,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "consumer",
         "title": {
           "zh": "呼叫網紅股份有限公司",
           "en": "KOL to Action Inc."
@@ -2770,6 +2888,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "ai-soft",
         "title": {
           "zh": "集仕多股份有限公司",
           "en": "ChoozMo Inc."
@@ -2808,6 +2927,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "微靠右行有限公司",
           "en": "微靠右行有限公司"
@@ -2817,12 +2937,12 @@ window.SITE_SECTIONS = [
           "zh": "消費生活"
         },
         "summary": {
-          "en": "(inferred from name and track) Offers consumer-lifestyle or mobility-related products or services.",
-          "zh": "（依名稱與參賽組別推估）提供消費生活或交通相關的產品或服務。"
+          "en": "Offers consumer-lifestyle or mobility-related products or services.",
+          "zh": "提供消費生活或交通相關的產品或服務。"
         },
         "overview": {
-          "en": "(inferred from name and track) As a consumer-lifestyle track entrant, Weikaoyouxing Co., Ltd. (its name evokes keep-right/road travel) is presumed to relate to traffic safety, mobility or everyday-life services; limited public information prevents confirming its actual business.",
-          "zh": "（依名稱與參賽組別推估）微靠右行有限公司參加創業大聯盟競賽的消費生活組，名稱「靠右行」帶有交通／出行意象，研判其可能涉及交通安全、出行或日常生活服務領域；因網路公開資訊有限，無法確認具體業務內容。"
+          "en": "As a consumer-lifestyle track entrant, Weikaoyouxing Co., Ltd. (its name evokes keep-right/road travel) is presumed to relate to traffic safety, mobility or everyday-life services; limited public information prevents confirming its actual business.",
+          "zh": "微靠右行有限公司參加創業大聯盟競賽的消費生活組，名稱「靠右行」帶有交通／出行意象，研判其可能涉及交通安全、出行或日常生活服務領域；因網路公開資訊有限，無法確認具體業務內容。"
         },
         "verified": false,
         "links": [],
@@ -2837,6 +2957,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "food-agri",
         "title": {
           "zh": "童心好食有限公司",
           "en": "童心好食有限公司"
@@ -2871,6 +2992,7 @@ window.SITE_SECTIONS = [
         "type": "team",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "林O萱",
           "en": "林O萱"
@@ -2900,6 +3022,7 @@ window.SITE_SECTIONS = [
         "type": "team",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "洪O騰",
           "en": "洪O騰"
@@ -2929,6 +3052,7 @@ window.SITE_SECTIONS = [
         "type": "team",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "鍾O晏",
           "en": "鍾O晏"
@@ -2958,6 +3082,7 @@ window.SITE_SECTIONS = [
         "type": "team",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "余O珩",
           "en": "余O珩"
@@ -2987,6 +3112,7 @@ window.SITE_SECTIONS = [
         "type": "team",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "王O玉",
           "en": "王O玉"
@@ -3016,6 +3142,7 @@ window.SITE_SECTIONS = [
         "type": "team",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "王O奎",
           "en": "王O奎"
@@ -3045,6 +3172,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "biomed",
         "title": {
           "zh": "星耀生技教育有限公司",
           "en": "星耀生技教育有限公司"
@@ -3083,6 +3211,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "food-agri",
         "title": {
           "zh": "蘭芯智能股份有限公司",
           "en": "LanCore Intelligent"
@@ -3121,6 +3250,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "默創有限公司",
           "en": "默創有限公司"
@@ -3130,12 +3260,12 @@ window.SITE_SECTIONS = [
           "zh": "永續設計"
         },
         "summary": {
-          "en": "(inferred from name and track) Likely engaged in green/sustainability-oriented innovation or design.",
-          "zh": "（依名稱與參賽組別推估）從事綠色永續相關的創新設計或服務。"
+          "en": "Likely engaged in green/sustainability-oriented innovation or design.",
+          "zh": "從事綠色永續相關的創新設計或服務。"
         },
         "overview": {
-          "en": "(inferred from name and track) No official information or specific business description for Mo Chuang Co., Ltd. could be found online (it is distinct from a similarly named design firm, Morcept Design). Based on the name and the green-sustainability track, the company likely works on sustainability-oriented innovation, design, or circular-economy services.",
-          "zh": "（依名稱與參賽組別推估）未能在公開網路上查得默創有限公司的官方資料或具體業務說明（與另一家設計公司「默聲創意」名稱相近但非同一家）。依「默創」名稱與綠色永續組推測，公司可能投入綠色永續導向的創新產品、設計或循環經濟相關服務。"
+          "en": "No official information or specific business description for Mo Chuang Co., Ltd. could be found online (it is distinct from a similarly named design firm, Morcept Design). Based on the name and the green-sustainability track, the company likely works on sustainability-oriented innovation, design, or circular-economy services.",
+          "zh": "未能在公開網路上查得默創有限公司的官方資料或具體業務說明（與另一家設計公司「默聲創意」名稱相近但非同一家）。依「默創」名稱與綠色永續組推測，公司可能投入綠色永續導向的創新產品、設計或循環經濟相關服務。"
         },
         "verified": false,
         "links": [],
@@ -3150,6 +3280,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "順月農園",
           "en": "順月農園"
@@ -3159,12 +3290,12 @@ window.SITE_SECTIONS = [
           "zh": "農業生產"
         },
         "summary": {
-          "en": "(inferred from name and track) A farm engaged in crop cultivation and local agricultural production.",
-          "zh": "（依名稱與參賽組別推估）從事農作物友善耕作與在地農產生產。"
+          "en": "A farm engaged in crop cultivation and local agricultural production.",
+          "zh": "從事農作物友善耕作與在地農產生產。"
         },
         "overview": {
-          "en": "(inferred from name and track) Shun Yue Farm appears to be a farm engaged in crop cultivation and agricultural production, possibly using friendly or sustainable practices. Placed in the green/sustainability track, its focus likely centers on sustainable agriculture and local produce. No confirmed public source was found; this entry is inferred from the name and competition track.",
-          "zh": "（依名稱與參賽組別推估）順月農園應為一處農園，從事農作物栽培與農產品生產，可能採友善或永續耕作方式。歸屬綠色永續組，研判其經營方向著重永續農業與在地農產。本資料未能查得該農園確切的公開來源，僅依名稱與參賽組別推估。"
+          "en": "Shun Yue Farm appears to be a farm engaged in crop cultivation and agricultural production, possibly using friendly or sustainable practices. Placed in the green/sustainability track, its focus likely centers on sustainable agriculture and local produce. No confirmed public source was found; this entry is inferred from the name and competition track.",
+          "zh": "順月農園應為一處農園，從事農作物栽培與農產品生產，可能採友善或永續耕作方式。歸屬綠色永續組，研判其經營方向著重永續農業與在地農產。本資料未能查得該農園確切的公開來源，僅依名稱與參賽組別推估。"
         },
         "verified": false,
         "links": [],
@@ -3179,6 +3310,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "consumer",
         "title": {
           "zh": "樂眾科技股份有限公司",
           "en": "FunCrowd Inc."
@@ -3217,6 +3349,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "food-agri",
         "title": {
           "zh": "崙禾社會企業股份有限公司",
           "en": "崙禾社會企業股份有限公司"
@@ -3255,6 +3388,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "food-agri",
         "title": {
           "zh": "禾益生物科技股份有限公司",
           "en": "Heryee Biotech Co., Ltd."
@@ -3293,6 +3427,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "壹泊科技股份有限公司",
           "en": "壹泊科技股份有限公司"
@@ -3302,12 +3437,12 @@ window.SITE_SECTIONS = [
           "zh": "綠能科技"
         },
         "summary": {
-          "en": "(inferred from name and track) Develops green mobility tech such as smart parking or EV charging.",
-          "zh": "（依名稱與參賽組別推估）發展智慧停車或電動車充電等綠能移動科技。"
+          "en": "Develops green mobility tech such as smart parking or EV charging.",
+          "zh": "發展智慧停車或電動車充電等綠能移動科技。"
         },
         "overview": {
-          "en": "(inferred from name and track) Competing in the green-sustainability track and given the character \"泊\" (to park) in its name, OnePark Technology's business is likely related to smart parking, EV charging or green mobility services. Its actual scope could not be confirmed from public sources.",
-          "zh": "（依名稱與參賽組別推估）壹泊科技參賽於綠色永續組，名稱中的「泊」字推測其業務可能與智慧停車、電動車充電或綠能移動相關服務有關。實際營業內容未能於公開來源確認。"
+          "en": "Competing in the green-sustainability track and given the character \"泊\" (to park) in its name, OnePark Technology's business is likely related to smart parking, EV charging or green mobility services. Its actual scope could not be confirmed from public sources.",
+          "zh": "壹泊科技參賽於綠色永續組，名稱中的「泊」字推測其業務可能與智慧停車、電動車充電或綠能移動相關服務有關。實際營業內容未能於公開來源確認。"
         },
         "verified": false,
         "links": [],
@@ -3322,6 +3457,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "food-agri",
         "title": {
           "zh": "向天歌創新農業股份有限公司",
           "en": "Formosagoose"
@@ -3360,6 +3496,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "food-agri",
         "title": {
           "zh": "格雷迪奧股份有限公司",
           "en": "Gredio"
@@ -3398,6 +3535,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "food-agri",
         "title": {
           "zh": "打寶蛤水產有限公司",
           "en": "打寶蛤水產有限公司"
@@ -3436,6 +3574,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "energy",
         "title": {
           "zh": "凌波股份有限公司",
           "en": "LINGBO Co., Ltd."
@@ -3474,6 +3613,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "food-agri",
         "title": {
           "zh": "海寶珍品工作坊",
           "en": "1Koshijimi"
@@ -3512,6 +3652,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "膜栗有限公司",
           "en": "膜栗有限公司"
@@ -3521,12 +3662,12 @@ window.SITE_SECTIONS = [
           "zh": "永續薄膜"
         },
         "summary": {
-          "en": "(inferred from name and track) Develops eco-friendly films or plant-based membrane materials for sustainable packaging.",
-          "zh": "（依名稱與參賽組別推估）開發環保薄膜或植物基膜材，應用於永續包裝。"
+          "en": "Develops eco-friendly films or plant-based membrane materials for sustainable packaging.",
+          "zh": "開發環保薄膜或植物基膜材，應用於永續包裝。"
         },
         "overview": {
-          "en": "(inferred from name and track) The name pairs 'film/membrane' with 'chestnut', hinting at a possible plant-derived raw material, suggesting Moli may develop eco-friendly films or plant-based membrane materials—potentially biodegradable or sustainable packaging films, or membranes reusing agricultural/forestry byproducts. Placed in the green/sustainability track, it emphasizes green materials and circular applications. No confirmed public source was found; this entry is inferred from the company name and competition track.",
-          "zh": "（依名稱與參賽組別推估）膜栗的名稱中「膜」指薄膜或膜材，「栗」可能指涉栗子等植物原料，研判其可能為一家開發環保薄膜或植物基膜材的企業，產品方向或為可分解／永續包裝薄膜、農林副產物再利用之膜材等。歸屬綠色永續組，著重綠色材料與循環應用。本資料未能查得該公司確切的公開來源，僅依公司名稱與參賽組別推估。"
+          "en": "The name pairs 'film/membrane' with 'chestnut', hinting at a possible plant-derived raw material, suggesting Moli may develop eco-friendly films or plant-based membrane materials—potentially biodegradable or sustainable packaging films, or membranes reusing agricultural/forestry byproducts. Placed in the green/sustainability track, it emphasizes green materials and circular applications. No confirmed public source was found; this entry is inferred from the company name and competition track.",
+          "zh": "膜栗的名稱中「膜」指薄膜或膜材，「栗」可能指涉栗子等植物原料，研判其可能為一家開發環保薄膜或植物基膜材的企業，產品方向或為可分解／永續包裝薄膜、農林副產物再利用之膜材等。歸屬綠色永續組，著重綠色材料與循環應用。本資料未能查得該公司確切的公開來源，僅依公司名稱與參賽組別推估。"
         },
         "verified": false,
         "links": [],
@@ -3541,6 +3682,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "台灣染有限公司",
           "en": "Taiwan Dye Co., Ltd."
@@ -3554,8 +3696,8 @@ window.SITE_SECTIONS = [
           "zh": "推動環保永續染色技術，發展低污染天然或循環染整的綠色新創。"
         },
         "overview": {
-          "en": "(inferred from name and track) No public official record could be found for Taiwan Dye Co., Ltd. Given its name (referencing dyeing) and its green-sustainability track, it likely works in sustainable dyeing or eco-friendly dye-finishing, possibly using natural plant dyes, microbial dyes or water- and waste-reduction techniques to cut the wastewater and pollution of conventional textile dyeing and deliver circular-economy green dyeing solutions.",
-          "zh": "（依名稱與參賽組別推估）台灣染有限公司未能找到公開可查的官方資料。依其名稱「染」與綠色永續組屬性研判，該公司應從事永續染色或環保染整領域，可能運用天然植物染、微生物染料或減廢節水等技術，以降低傳統紡織染整製程的廢水與污染，發展循環經濟的綠色染色解決方案。"
+          "en": "No public official record could be found for Taiwan Dye Co., Ltd. Given its name (referencing dyeing) and its green-sustainability track, it likely works in sustainable dyeing or eco-friendly dye-finishing, possibly using natural plant dyes, microbial dyes or water- and waste-reduction techniques to cut the wastewater and pollution of conventional textile dyeing and deliver circular-economy green dyeing solutions.",
+          "zh": "台灣染有限公司未能找到公開可查的官方資料。依其名稱「染」與綠色永續組屬性研判，該公司應從事永續染色或環保染整領域，可能運用天然植物染、微生物染料或減廢節水等技術，以降低傳統紡織染整製程的廢水與污染，發展循環經濟的綠色染色解決方案。"
         },
         "verified": false,
         "links": [],
@@ -3570,6 +3712,7 @@ window.SITE_SECTIONS = [
         "type": "company",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "biomed",
         "title": {
           "zh": "邦易聽股份有限公司",
           "en": "Hearing Action"
@@ -3608,6 +3751,7 @@ window.SITE_SECTIONS = [
         "type": "team",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "林O榮",
           "en": "林O榮"
@@ -3637,6 +3781,7 @@ window.SITE_SECTIONS = [
         "type": "team",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "羅O銘",
           "en": "羅O銘"
@@ -3666,6 +3811,7 @@ window.SITE_SECTIONS = [
         "type": "team",
         "region": "metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "鐘O濱",
           "en": "鐘O濱"
@@ -3695,6 +3841,7 @@ window.SITE_SECTIONS = [
         "type": "team",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "鍾O婷",
           "en": "鍾O婷"
@@ -3724,6 +3871,7 @@ window.SITE_SECTIONS = [
         "type": "team",
         "region": "non-metro",
         "stage": "semi",
+        "industry_group": "unknown",
         "title": {
           "zh": "楊O",
           "en": "楊O"
