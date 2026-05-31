@@ -60,7 +60,7 @@
     en: {
       footer: "Unofficial data-visualization · static site, no build step.",
       close: "Close", menu: "On this page",
-      searchPlaceholder: "Search a company name or ID…",
+      searchPlaceholder: "Search name, industry, or keyword…",
       all: "All",
       axisCategory: "Track", axisStage: "Stage", axisType: "Type", axisRegion: "Region",
       axisIndustry: "Industry",
@@ -75,7 +75,7 @@
     zh: {
       footer: "非官方資料整理與視覺化 · 純靜態網站，無建置流程。",
       close: "關閉", menu: "本頁導覽",
-      searchPlaceholder: "搜尋公司名稱或參賽編號…",
+      searchPlaceholder: "搜尋公司名稱、產業或關鍵字…",
       all: "全部",
       axisCategory: "組別", axisStage: "階段", axisType: "性質", axisRegion: "賽區",
       axisIndustry: "產業",
@@ -123,6 +123,7 @@
   function r(n) { return Math.round(n * 100) / 100; }
   function commas(n) { return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ","); }
   function catLabel(key) { return t(CAT_LABEL[key] || { en: key, zh: key }); }
+  function bothLang(o) { return o ? [o.en || "", o.zh || ""] : []; }
 
   function sectionHead(sec) {
     var sub = t(sec.subtitle)
@@ -352,13 +353,29 @@
     if (gstate.type !== "all" && item.type !== gstate.type) return false;
     if (gstate.region !== "all" && item.region !== gstate.region) return false;
     if (!gstate.q) return true;
-    var q = gstate.q.toLowerCase();
-    var hay = [
-      t(item.title), item.title.en, item.title.zh, item.id, t(item.industry),
-      t(item.summary), catLabel(item.category), item.city || "",
-      (item.tags || []).join(" ")
-    ].join(" ").toLowerCase();
-    return hay.indexOf(q) !== -1;
+    return searchHay(item).indexOf(gstate.q.toLowerCase()) !== -1;
+  }
+
+  /* Build the searchable text for an item, in BOTH languages.
+     Factual fields are always indexed. Free-text content (industry / summary /
+     overview) is indexed for verified companies + teams only — never for an
+     inferred company, so a hidden name-based guess can't resurface via search. */
+  function searchHay(item) {
+    var parts = bothLang(item.title)
+      .concat([item.id, item.city || ""])
+      .concat(bothLang(CAT_LABEL[item.category]))
+      .concat(bothLang(LABELS.type[item.type]))
+      .concat(bothLang(LABELS.region[item.region]))
+      .concat(bothLang(LABELS.stage[item.stage]))
+      .concat(item.tags || []);
+    if (item.industry_group) parts = parts.concat(bothLang(IND_LABEL[item.industry_group]));
+    if (item.award) parts = parts.concat(bothLang(LABELS.award[item.award]));
+    if (!isInferred(item)) {
+      parts = parts.concat(bothLang(item.industry))
+                   .concat(bothLang(item.summary))
+                   .concat(bothLang(item.overview));
+    }
+    return parts.join(" ").toLowerCase();
   }
 
   /* an inferred company = no public data found; only verified companies show
