@@ -10,9 +10,9 @@
 
 | | |
 |---|---|
-| 🌐 網站 | <https://tingwei161803.github.io/startup-asvda-org/> |
+| 🌐 網站 | <https://startup-asvda-org.peteraim.com/> |
 
-> 直接點進去就能用，無需安裝。可用 `https://tingwei161803.github.io/startup-asvda-org/#<參賽編號>` 深連結到特定公司，例如 [`#a0972`](https://tingwei161803.github.io/startup-asvda-org/#a0972)（艾斯創生醫）。
+> 直接點進去就能用，無需安裝。可用 `https://startup-asvda-org.peteraim.com/#<參賽編號>` 深連結到特定公司，例如 [`#a0972`](https://startup-asvda-org.peteraim.com/#a0972)（艾斯創生醫）。
 
 ---
 
