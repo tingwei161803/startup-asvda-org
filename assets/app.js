@@ -97,7 +97,7 @@
 
   /* ---------- state ---------- */
   var state = {
-    lang:  lsGet("lang")  || "zh",
+    lang:  lsGet("lang")  || "en",
     theme: lsGet("theme") || "dark"          // dark = ceremony default
   };
   /* gallery filter axes (each independent, ANDed) */
