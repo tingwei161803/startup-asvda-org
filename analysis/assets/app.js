@@ -51,7 +51,7 @@
 
   function lsGet(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
   function lsSet(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
-  var state = { lang: lsGet("lang") || "zh", theme: lsGet("theme") || "dark" };
+  var state = { lang: lsGet("lang") || "en", theme: lsGet("theme") || "dark" };
 
   var $ = function (id) { return document.getElementById(id); };
   var sectionsEl = $("sections"), navInner = $("sectionNavInner"),
