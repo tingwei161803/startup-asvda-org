@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://startup-asvda-org.peteraim.com/sitemap.xml
