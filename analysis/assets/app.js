@@ -24,6 +24,7 @@
     en: {
       footer: "Unofficial analysis & visualization · multi-agent draft, human-reviewed · static site.",
       close: "Close", menu: "On this page", back: "Directory",
+      eyebrow: "VC × Consulting · Multi-lens Analysis",
       report: "Full report", picks: "Companies to watch", methods: "Methods/Frameworks",
       spotlight: "Spotlight", viewInDir: "View in directory",
       navOverview: "Overview", navThemes: "Cross-cutting Themes", navLenses: "Analytical Lenses",
@@ -37,6 +38,7 @@
     zh: {
       footer: "非官方分析與視覺化 · 多代理人產出、人工審閱 · 純靜態網站。",
       close: "關閉", menu: "本頁導覽", back: "入選名錄",
+      eyebrow: "VC × 顧問 · 多視角分析",
       report: "完整報告", picks: "值得關注的公司", methods: "分析方法／框架",
       spotlight: "焦點公司", viewInDir: "到名錄查看",
       navOverview: "總覽", navThemes: "跨視角主題", navLenses: "分析視角",
@@ -99,7 +101,7 @@
           (num ? ' data-count="' + esc(String(s.value)) + '"' : "") + '>' + esc(String(s.value)) + "</b>" +
         '<span class="hero__stat-label">' + esc(t(s.label)) + "</span></div>";
     }).join("");
-    return '<header class="section-head"><span class="a-eyebrow">VC × 顧問 · 多視角分析</span>' +
+    return '<header class="section-head"><span class="a-eyebrow">' + esc(ui("eyebrow")) + "</span>" +
       '<h2 id="overview-heading">' + esc(t(HERO.headline)) + "</h2>" +
       (t(HERO.thesis) ? '<p class="a-thesis">' + esc(t(HERO.thesis)) + "</p>" : "") +
       "</header>" + (stats ? '<div class="hero__stats">' + stats + "</div>" : "");
