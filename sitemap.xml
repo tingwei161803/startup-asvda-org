@@ -5,9 +5,15 @@
 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://startup-asvda-org.peteraim.com/</loc>
+  </url>
+  <url>
     <loc>https://startup-asvda-org.peteraim.com/analysis/</loc>
   </url>
   <url>
-    <loc>https://startup-asvda-org.peteraim.com/</loc>
+    <loc>https://startup-asvda-org.peteraim.com/en/</loc>
+  </url>
+  <url>
+    <loc>https://startup-asvda-org.peteraim.com/en/analysis/</loc>
   </url>
 </urlset>
