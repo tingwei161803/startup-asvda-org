@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh" data-theme="dark">
+<html lang="zh-Hant" data-theme="dark">
 <head>
   <!-- ==== Google Analytics 4 (Measurement ID: G-B7RN36NKZJ) ==== -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-B7RN36NKZJ"></script>
@@ -16,6 +16,9 @@
   <title>創業大聯盟 100 強・深度分析 — VC × 顧問多視角</title>
   <meta name="description" content="以創投、策略顧問、技術、市場、國家戰略、風險等多重視角，分析國發會「創業大聯盟競賽」100 強入選企業的厲害之處與投資潛力。多代理人分析、誠實標記、附完整報告。" />
   <link rel="canonical" href="https://startup-asvda-org.peteraim.com/analysis/" />
+  <link rel="alternate" hreflang="zh-Hant" href="https://startup-asvda-org.peteraim.com/analysis/" />
+  <link rel="alternate" hreflang="en" href="https://startup-asvda-org.peteraim.com/en/analysis/" />
+  <link rel="alternate" hreflang="x-default" href="https://startup-asvda-org.peteraim.com/analysis/" />
   <meta name="theme-color" content="#0B0E14" />
 
   <meta property="og:type" content="article" />
@@ -45,10 +48,11 @@
           <span class="material-symbols-rounded">arrow_back</span>
           <span class="icon-btn__txt" id="backLabel">入選名錄</span>
         </a>
-        <button class="icon-btn" id="langToggle" type="button" title="Language" aria-label="Toggle language / 切換語言">
+        <a class="icon-btn" id="langToggle" href="/en/analysis/" hreflang="en" lang="en"
+           rel="alternate" title="English version" aria-label="Read this page in English">
           <span class="material-symbols-rounded">translate</span>
-          <span class="icon-btn__txt" id="langLabel">中</span>
-        </button>
+          <span class="icon-btn__txt">EN</span>
+        </a>
         <button class="icon-btn" id="themeToggle" type="button" title="Theme" aria-label="Toggle theme / 切換主題">
           <span class="material-symbols-rounded" id="themeIcon">light_mode</span>
         </button>
@@ -89,5 +93,6 @@
 
   <script src="data/data.js"></script>
   <script src="assets/app.js"></script>
+<p class="lang-alt-link" style="text-align:center;padding:12px;"><a href="/en/analysis/" hreflang="en" rel="alternate" lang="en">English version</a></p>
 </body>
 </html>

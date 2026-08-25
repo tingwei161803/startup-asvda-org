@@ -96,8 +96,15 @@
   function lsSet(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
 
   /* ---------- state ---------- */
+  /* The URL decides the language: each language has its own page, and that page
+     declares which one it is in <html lang>. Never read the language back from
+     storage — a visitor landing on /en/ must get English even if they once
+     picked 中文, and crawlers have no storage at all. */
+  var pageLang = (document.documentElement.getAttribute("lang") || "en")
+    .toLowerCase().indexOf("zh") === 0 ? "zh" : "en";
+
   var state = {
-    lang:  lsGet("lang")  || "en",
+    lang:  pageLang,
     theme: lsGet("theme") || "dark"          // dark = ceremony default
   };
   /* gallery filter axes (each independent, ANDed) */
@@ -504,7 +511,6 @@
   }
 
   function paintChrome() {
-    document.documentElement.setAttribute("lang", state.lang);
     var titleStr = t(META.title), subStr = t(META.subtitle);
     document.title = subStr ? titleStr + " · " + subStr : titleStr;
     var brand = $("brandName"); if (brand) brand.textContent = titleStr;
@@ -674,23 +680,10 @@
     if (icon) icon.textContent = state.theme === "dark" ? "light_mode" : "dark_mode";
     lsSet("theme", state.theme);
   }
-  function applyLangChrome() {
-    var label = $("langLabel");
-    if (label) label.textContent = state.lang === "en" ? "EN" : "中";
-    lsSet("lang", state.lang);
-  }
-
   function wire() {
     $("themeToggle").addEventListener("click", function () {
       state.theme = state.theme === "dark" ? "light" : "dark";
       applyTheme();
-    });
-    $("langToggle").addEventListener("click", function () {
-      state.lang = state.lang === "en" ? "zh" : "en";
-      applyLangChrome();
-      var openSlug = isSlugHash() ? location.hash.slice(1) : null;
-      render();                       // repaint EVERYTHING in the new language
-      if (dialog.open && openSlug) openDialog(openSlug);
     });
     $("dialogClose").addEventListener("click", closeDialog);
     dialog.addEventListener("click", function (e) { if (e.target === dialog) closeDialog(); });
@@ -709,7 +702,6 @@
   /* ---------- init ---------- */
   function init() {
     applyTheme();
-    applyLangChrome();
     render();
     wire();
     syncFromHash();

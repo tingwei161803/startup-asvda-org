@@ -24,6 +24,7 @@
     en: {
       footer: "Unofficial analysis & visualization · multi-agent draft, human-reviewed · static site.",
       close: "Close", menu: "On this page", back: "Directory",
+      eyebrow: "VC × Consulting · Multi-lens Analysis",
       report: "Full report", picks: "Companies to watch", methods: "Methods/Frameworks",
       spotlight: "Spotlight", viewInDir: "View in directory",
       navOverview: "Overview", navThemes: "Cross-cutting Themes", navLenses: "Analytical Lenses",
@@ -37,6 +38,7 @@
     zh: {
       footer: "非官方分析與視覺化 · 多代理人產出、人工審閱 · 純靜態網站。",
       close: "關閉", menu: "本頁導覽", back: "入選名錄",
+      eyebrow: "VC × 顧問 · 多視角分析",
       report: "完整報告", picks: "值得關注的公司", methods: "分析方法／框架",
       spotlight: "焦點公司", viewInDir: "到名錄查看",
       navOverview: "總覽", navThemes: "跨視角主題", navLenses: "分析視角",
@@ -51,7 +53,14 @@
 
   function lsGet(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
   function lsSet(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
-  var state = { lang: lsGet("lang") || "en", theme: lsGet("theme") || "dark" };
+  /* The URL decides the language: each language has its own page, and that page
+     declares which one it is in <html lang>. Never read the language back from
+     storage — a visitor landing on /en/ must get English even if they once
+     picked 中文, and crawlers have no storage at all. */
+  var pageLang = (document.documentElement.getAttribute("lang") || "en")
+    .toLowerCase().indexOf("zh") === 0 ? "zh" : "en";
+
+  var state = { lang: pageLang, theme: lsGet("theme") || "dark" };
 
   var $ = function (id) { return document.getElementById(id); };
   var sectionsEl = $("sections"), navInner = $("sectionNavInner"),
@@ -92,7 +101,7 @@
           (num ? ' data-count="' + esc(String(s.value)) + '"' : "") + '>' + esc(String(s.value)) + "</b>" +
         '<span class="hero__stat-label">' + esc(t(s.label)) + "</span></div>";
     }).join("");
-    return '<header class="section-head"><span class="a-eyebrow">VC × 顧問 · 多視角分析</span>' +
+    return '<header class="section-head"><span class="a-eyebrow">' + esc(ui("eyebrow")) + "</span>" +
       '<h2 id="overview-heading">' + esc(t(HERO.headline)) + "</h2>" +
       (t(HERO.thesis) ? '<p class="a-thesis">' + esc(t(HERO.thesis)) + "</p>" : "") +
       "</header>" + (stats ? '<div class="hero__stats">' + stats + "</div>" : "");
@@ -190,7 +199,6 @@
   }
 
   function paintChrome() {
-    document.documentElement.setAttribute("lang", state.lang);
     var tt = t(META.title), sub = t(META.subtitle);
     document.title = sub ? tt + " · " + sub : tt;
     var b = $("brandName"); if (b) b.textContent = tt;
@@ -289,15 +297,8 @@
     var i = $("themeIcon"); if (i) i.textContent = state.theme === "dark" ? "light_mode" : "dark_mode";
     lsSet("theme", state.theme);
   }
-  function applyLangChrome() { var l = $("langLabel"); if (l) l.textContent = state.lang === "en" ? "EN" : "中"; lsSet("lang", state.lang); }
-
   function wire() {
     $("themeToggle").addEventListener("click", function () { state.theme = state.theme === "dark" ? "light" : "dark"; applyTheme(); });
-    $("langToggle").addEventListener("click", function () {
-      state.lang = state.lang === "en" ? "zh" : "en"; applyLangChrome();
-      var open = isLensHash() ? location.hash.slice(1) : null;
-      render(); if (dialog.open && open) openLens(open);
-    });
     $("dialogClose").addEventListener("click", closeDialog);
     dialog.addEventListener("click", function (e) { if (e.target === dialog) closeDialog(); });
     dialog.addEventListener("close", function () { if (isLensHash()) history.replaceState(null, "", location.pathname + location.search); });
@@ -305,6 +306,6 @@
   }
   function syncFromHash() { var s = location.hash.slice(1); if (s && LENS_INDEX[s]) openLens(s); else if (!s && dialog.open) dialog.close(); }
 
-  function init() { applyTheme(); applyLangChrome(); render(); wire(); syncFromHash(); }
+  function init() { applyTheme(); render(); wire(); syncFromHash(); }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init); else init();
 })();
