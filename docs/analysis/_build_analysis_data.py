@@ -11,7 +11,7 @@ import json
 import os
 import sys
 
-ROOT = "."
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # repo root
 REPO_BLOB = "https://github.com/tingwei161803/startup-asvda-org/blob/main/docs/analysis"
 
 
